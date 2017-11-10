@@ -1,0 +1,76 @@
+##############################################/
+# Renegade's Spaceports Expanded ############/
+############################################/
+
+#Version 1.1
+#TheRenegade 10/02/17
+
+
+# lower ai weight = less chance
+#modifiers that can be added from modules
+#"modifier", category: MODIFIER_CATEGORY_SPACEPORT. things that affect the builder part of the spaceport. like construction costs and speeds
+#"orbit_modifier", category: MODIFIER_CATEGORY_FLEET | MODIFIER_CATEGORY_SHIP. applied on all orbiting fleets and ships
+#"planet_modifier", category: MODIFIER_CATEGORY_PLANET | MODIFIER_CATEGORY_POP | MODIFIER_CATEGORY_TILE. affects the planet
+#"station_modifier", category: MODIFIER_CATEGORY_FLEET | MODIFIER_CATEGORY_SHIP. affects the ship part of the spaceport. like health and armor
+#"ship_modifier", category: MODIFIER_CATEGORY_SHIP. affects all ships that are built by this space port
+
+
+
+#utility_component_template = {
+#	key = "RSEDEFA1"
+#	size = small
+#	icon = "GFX_ship_part_armor_1"
+#	icon_frame = 1
+#	power = 0
+#	cost = 0
+#	hidden = yes
+#	prerequisites = { }
+#	modifier = {
+#		ship_armor_add = 50
+#	}
+#	component_set = "RSE_DEF_A1"
+#
+#	ai_weight = {
+#		weight = 0
+#	}
+#}
+#
+#utility_component_template = {
+#	key = "RSEDEFA1"
+#	size = small
+#	icon = "GFX_ship_part_armor_2"
+#	icon_frame = 1
+#	power = 0
+#	cost = 0
+#	hidden = yes
+#	prerequisites = { }
+#	modifier = {
+#		ship_armor_mult = 0.75
+#	}
+#
+#	component_set = "RSE_DEF_A2"
+#
+#	ai_weight = {
+#		weight = 0
+#	}
+#}
+#
+#utility_component_template = {
+#	key = "RSEDEFA1"
+#	size = small
+#	icon = "GFX_ship_part_armor_3"
+#	icon_frame = 1
+#	power = 0
+#	cost = 0
+#	hidden = yes
+#	prerequisites = { }
+#	modifier = {
+#		ship_armor_mult = 1.25
+#	}
+#
+#	component_set = "RSE_DEF_A3"
+#
+#	ai_weight = {
+#		weight = 0
+#	}
+#}

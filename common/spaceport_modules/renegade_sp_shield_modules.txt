@@ -1,0 +1,277 @@
+##############################################/
+# Renegade's Spaceports Expanded ############/
+############################################/
+
+#Version 1.1
+#TheRenegade 09/27/17
+
+
+#################### Shield Modules ####################
+
+#sm_rse_spaceport_shield_1:0 "Shield Array MK I"
+rse_spaceport_shield_1 = {
+	icon = "GFX_ship_part_shield_1"
+	section = "RSE_DEFENSE_PLATFORM_SECTION"
+	construction_days = 180
+	prerequisites = { "tech_rse_shields_1" }
+	component_set = "RSE_SHIELD1"
+	spaceport_level = 2
+	cost = { minerals = 250 }
+	required_resources = {
+		energy = 1
+	}
+	ai_weight = {
+		weight = 5
+		modifier = { # I'm not sure this flag is used since 1.8
+			factor = 2
+			has_country_flag = ai_flag_aggressive_personality
+		}
+		modifier = {
+			factor = 1.6
+			OR = {
+				is_at_war = yes
+				is_war_leader = yes
+			}
+		}
+		modifier = {
+			factor = 1.4
+			any_neighbor_country = {
+				is_country_type = default
+				OR = {
+					is_hostile_to = prev
+					is_domineering_to = prev
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			from = { 
+				NOR = {
+				has_spaceport_module = rse_spaceport_shield_1
+				has_spaceport_module = rse_spaceport_shield_2
+				has_spaceport_module = rse_spaceport_shield_3
+				}
+			}
+		}
+		modifier = {
+			factor = 0.1
+			OR = {	
+				has_ethic = ethic_fanatic_militarist
+			}
+		}
+		modifier = {
+			factor = 0.25
+			OR = {	
+				has_ethic = ethic_militarist
+				has_ethic = ethic_fanatic_authoritarian
+				has_ethic = ethic_fanatic_xenophobe
+			}
+		}
+		modifier = {
+			factor = 0.5
+			OR = {	
+				has_ethic = ethic_authoritarian
+				has_ethic = ethic_xenophobe
+				has_ethic = ethic_fanatic_materialist
+				has_ethic = ethic_materialist
+				has_ethic = ethic_fanatic_spiritualist
+				has_ethic = ethic_spiritualist
+				has_ethic = ethic_xenophile
+				has_ethic = ethic_egalitarian
+			}
+		}
+		modifier = {
+			factor = 0.75
+			OR = {	
+				has_ethic = ethic_pacifist
+				has_ethic = ethic_fanatic_xenophile
+				has_ethic = ethic_fanatic_egalitarian
+			}
+		}
+		modifier = {
+			factor = 1.5
+			OR = {	
+				has_ethic = ethic_fanatic_pacifist
+			}
+		}
+	}
+}
+
+#sm_rse_spaceport_shield_2:0 "Shield MK I to MK II Upgrade Kit"
+rse_spaceport_shield_2 = {
+	icon = "GFX_ship_part_shield_2"
+	section = "RSE_DEFENSE_PLATFORM_SECTION"
+	construction_days = 270
+	prerequisites = { "tech_rse_shields_2" }
+	component_set = "RSE_SHIELD2"
+	spaceport_level = 5
+	cost = { minerals = 500 }
+	required_resources = {
+		energy = 4
+	}
+	ai_weight = {
+		weight = 5
+		modifier = { # I'm not sure this flag is used since 1.8
+			factor = 2
+			has_country_flag = ai_flag_aggressive_personality
+		}
+		modifier = {
+			factor = 1.6
+			OR = {
+				is_at_war = yes
+				is_war_leader = yes
+			}
+		}
+		modifier = {
+			factor = 1.4
+			any_neighbor_country = {
+				is_country_type = default
+				OR = {
+					is_hostile_to = prev
+					is_domineering_to = prev
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			from = { 
+				NOR = {
+				has_spaceport_module = rse_spaceport_shield_2
+				has_spaceport_module = rse_spaceport_shield_3
+				has_spaceport_module = rse_module_armor_3
+				}
+			}
+		}
+		modifier = {
+			factor = 0.1
+			OR = {	
+				has_ethic = ethic_fanatic_militarist
+			}
+		}
+		modifier = {
+			factor = 0.25
+			OR = {	
+				has_ethic = ethic_militarist
+				has_ethic = ethic_fanatic_authoritarian
+				has_ethic = ethic_fanatic_xenophobe
+			}
+		}
+		modifier = {
+			factor = 0.5
+			OR = {	
+				has_ethic = ethic_authoritarian
+				has_ethic = ethic_xenophobe
+				has_ethic = ethic_fanatic_materialist
+				has_ethic = ethic_materialist
+				has_ethic = ethic_fanatic_spiritualist
+				has_ethic = ethic_spiritualist
+				has_ethic = ethic_xenophile
+				has_ethic = ethic_egalitarian
+			}
+		}
+		modifier = {
+			factor = 0.75
+			OR = {	
+				has_ethic = ethic_pacifist
+				has_ethic = ethic_fanatic_xenophile
+				has_ethic = ethic_fanatic_egalitarian
+			}
+		}
+		modifier = {
+			factor = 1.5
+			OR = {	
+				has_ethic = ethic_fanatic_pacifist
+			}
+		}
+	}	
+}
+
+#sm_rse_spaceport_shield_3:0 "Shield MK II to MK III Upgrade Kit"
+rse_spaceport_shield_3 = {
+	icon = "GFX_ship_part_shield_3"
+	section = "RSE_DEFENSE_PLATFORM_SECTION"
+	construction_days = 360
+	prerequisites = { "tech_rse_shields_3" }
+	component_set = "RSE_SHIELD3"
+	spaceport_level = 7
+	cost = { minerals = 1000 }
+	required_resources = {
+		energy = 10
+	}
+	ai_weight = {
+		weight = 5
+		modifier = { # I'm not sure this flag is used since 1.8
+			factor = 2
+			has_country_flag = ai_flag_aggressive_personality
+		}
+		modifier = {
+			factor = 1.6
+			OR = {
+				is_at_war = yes
+				is_war_leader = yes
+			}
+		}
+		modifier = {
+			factor = 1.4
+			any_neighbor_country = {
+				is_country_type = default
+				OR = {
+					is_hostile_to = prev
+					is_domineering_to = prev
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			from = { 
+				NOR = {
+				has_spaceport_module = rse_spaceport_shield_1
+				has_spaceport_module = rse_spaceport_shield_2
+				has_spaceport_module = rse_spaceport_shield_3
+				has_spaceport_module = rse_module_armor_3
+				}
+			}
+		}
+		modifier = {
+			factor = 0.1
+			OR = {	
+				has_ethic = ethic_fanatic_militarist
+			}
+		}
+		modifier = {
+			factor = 0.25
+			OR = {	
+				has_ethic = ethic_militarist
+				has_ethic = ethic_fanatic_authoritarian
+				has_ethic = ethic_fanatic_xenophobe
+			}
+		}
+		modifier = {
+			factor = 0.5
+			OR = {	
+				has_ethic = ethic_authoritarian
+				has_ethic = ethic_xenophobe
+				has_ethic = ethic_fanatic_materialist
+				has_ethic = ethic_materialist
+				has_ethic = ethic_fanatic_spiritualist
+				has_ethic = ethic_spiritualist
+				has_ethic = ethic_xenophile
+				has_ethic = ethic_egalitarian
+			}
+		}
+		modifier = {
+			factor = 0.75
+			OR = {	
+				has_ethic = ethic_pacifist
+				has_ethic = ethic_fanatic_xenophile
+				has_ethic = ethic_fanatic_egalitarian
+			}
+		}
+		modifier = {
+			factor = 1.5
+			OR = {	
+				has_ethic = ethic_fanatic_pacifist
+			}
+		}
+	}	
+}

@@ -1,0 +1,219 @@
+﻿#l_braz_por:
+#l_english:
+l_french:
+#l_german:
+#l_polish:
+#l_russian:
+#l_spanish:
+
+##############################################/
+# Renegade's Spaceports Expanded ############/
+############################################/
+
+#########################################/
+# Technology  ##########################/
+#######################################/
+
+#Version 2.0
+#TheRenegade 10/04/17
+
+
+#Shield Module Tech
+tech_rse_shields_1: "Spaceport Shield Array MK I"
+tech_rse_shields_1_desc: "You have shields on your ships, now we have made them powerful enough for your Spaceports!"
+
+tech_rse_shields_2: "Spaceport Shield MK I to MK II Upgrade Kit"
+tech_rse_shields_2_desc: "Unlocks the ability to install shield rechargers and boosters on your spaceports, further boosting regen and shield strength."
+
+tech_rse_shields_3: "Spaceport Shield MK II to MK III Upgrade Kit"
+tech_rse_shields_3_desc: "This unlocks increased tech, further increasing the regen and durability of your spaceport shield arrays. Spaceports with these installed are virtually impregnable bastions in space."
+
+
+#Hull Module Tech
+tech_reinforced_hull_1: "Bulkhead Reinforcments"
+tech_reinforced_hull_1_desc: "Heavy duty reinforced bulkheads for your spaceports drastically improve their survivability in combat."
+
+tech_reinforced_hull_2: "Neutronium Skin Structural Reinforcment"
+tech_reinforced_hull_2_desc: "Using Neutronium Ore as a foundation for hull construction introduces self-regernation technology to your spaceport."
+
+tech_reinforced_hull_3: "Living Metal Endoskeleton"
+tech_reinforced_hull_3_desc: "By having a liquid living metal skin, the self-regeneration of your spaceports is dramitcally increased."
+
+
+#Armor Module Tech
+tech_rse_module_armor_1: "Reinforced Spaceport Blast Doors"
+tech_rse_module_armor_1_desc: "Introducing automatic bulkheads, blast doors and window coverings, your spaceports offer increased damage mitigation."
+
+tech_rse_module_armor_2: "Titanium Alloy Armor Upgrade Kit"
+tech_rse_module_armor_2_desc: "Offering a thicker, denser and more resistant armor kit your starbases cant take quite the beating."
+
+tech_rse_module_armor_3: "Ablative Armor Upgrade Kit"
+tech_rse_module_armor_3_desc: "Ablative Armor is the epitmoe of spaceport armor. Virtually impregnable, any spaceport fit with this kit will be a force to be reckoned with."
+
+
+#Weapon Module Tech
+tech_synchronized_defences_2: "Semi-Autonomous Defense Matrix"
+tech_synchronized_defences_2_desc: "Turning over a portion of targetting to computers, this unlocks moudles for spaceport defense."
+
+tech_synchronized_defences_3: "Autonomous Defense Matrix"
+tech_synchronized_defences_3_desc: "Target acquisition and weapon seclection is handled by computers, but someone still needs to push a button."
+
+tech_synchronized_defences_4: "AI Controlled Defensive Matrix - SkyNet development suite"
+tech_synchronized_defences_4_desc: "Who needs to push buttons when a AI computer network can handle the killing of all threats? Turn over complete control of all spaceport defensive operations to a faster and better mind!"
+
+tech_rse_spaceport_lasers_1: "Spaceport Laser Array MK II - X-Ray Crystal Transportation"
+tech_rse_spaceport_lasers_1_desc: "Making guns bigger and more power efficent, this Gamma Laser Array tech unlocks more advanced medium weaponry for your spaceports."
+
+tech_rse_spaceport_lasers_2: "Spaceport Laser Array MK III - Gamma Crystal Focusing Array"
+tech_rse_spaceport_lasers_2_desc: "Further efficiencies has enabled a battery of large weapons to compliment the offensive power of your Spaceports."
+
+tech_rse_spaceport_lasers_3: "Spaceport Laser Array MK IV - Energy Lance Focusing Crystals"
+tech_rse_spaceport_lasers_3_desc: "The end all and be all of laser offensive weaponry, Spaceports fit with this new technology will be nothing short of a ship-killer."
+
+tech_rse_spaceport_mass_drivers_1: "Spaceport Gauss Cannon Array MK II - Anti-Grav Propulsion"
+tech_rse_spaceport_mass_drivers_1_desc: "Offering a larger punch to standard kinetic starport weapons, this Gauss Cannon Array tech unlocks more advanced medium weaponry for your spaceports."
+
+tech_rse_spaceport_mass_drivers_2: "Spaceport Gauss Cannon Array MK III - Artillery Range"
+tech_rse_spaceport_mass_drivers_2_desc: "Further efficiencies has enabled a battery of large weapons to compliment the offensive power of your Spaceports."
+
+tech_rse_spaceport_mass_drivers_3: "Spaceport Mass Accelerator Array MK IV - Mass Acceleration"
+tech_rse_spaceport_mass_drivers_3_desc: "The end all and be all of kinetic offensive weaponry, Spaceports fit with this new technology will be nothing short of a ship-killer."
+
+tech_rse_spaceport_missiles_1: "Missile Array MK II - Nuclear missile storage"
+tech_rse_spaceport_missiles_1_desc: "Further advances in nuclear warhead storage has allowed us to safety store an increased arsenal of medium warheads on spaceports."
+
+tech_rse_spaceport_missiles_2: "Missile Array MK III - Anti-matter Containment"
+tech_rse_spaceport_missiles_2_desc: "Anit-matter containment fields has finally enabled us to store large anti-matter missiles next to our civilian populations."
+
+tech_rse_spaceport_missiles_3: "Missile Array MK IV - Devestation pure and simple"
+tech_rse_spaceport_missiles_3_desc: "Throwing all cares to the wind, we have started transporting Devastator Torpedeos to our spaceports. Safety be damned!"
+
+tech_rse_spaceport_arc_emitter: "Focused Arc Emitter Battery - Spaceport sized!"
+tech_rse_spaceport_arc_emitter_desc: "Combining the best advancements in Plasma and Laser technologies we have learned how to outfit our spaceports with the highest quality offensive arc emitters in the galaxy."
+
+tech_rse_spaceport_energy_torpedoes: "Neutron Torpedo Battery - What's better?"
+tech_rse_spaceport_energy_torpedoes_desc: "Energy Torpedeos on a spaceport... what else could you really ask for?"
+
+tech_rse_hangar_1: "Station Fighter Squadron - Pilot training schools"
+tech_rse_hangar_1_desc: "TopGun schooling for the best of the best. Come on, Mav, do some of that pilot shit!"
+
+tech_rse_hangar_2: "Station Bomber Squadron - Bomber pratice ranges"
+tech_rse_hangar_2_desc: "That's no moon. It's a space station."
+
+
+#Energy Module Tech
+tech_solar_panel_network_2: "Solar Panel MK II"
+tech_solar_panel_network_2_desc: "Large Scale Solar Panels for Starbases."
+
+tech_solar_panel_network_3: "Solar Panel MK III"
+tech_solar_panel_network_3_desc: "Larger and more efficent Solar Panels for Starbases."
+
+tech_solar_panel_network_4: "Solar Panel MK IV - Tesla Edition"
+tech_solar_panel_network_4_desc: "X-Large Scale Solar Panels for Starbases - It is remarkable how many things you can explode. I’m lucky I have all my fingers."
+
+tech_solar_panel_network_5: "Planetary Energy Grid"
+tech_solar_panel_network_5_desc: "Harnessing solar power and then using lasers to beam it to the surface, you can increase the efficiency of all your planetary power plants."
+
+tech_solar_panel_network_6: "Spaceport Anti-Matter Power Plant"
+tech_solar_panel_network_6_desc: "Bigger and better staion power plants for those energy hungry starbase modules."
+
+tech_solar_panel_network_7: "Spaceport Zero-Point Power Plant"
+tech_solar_panel_network_7_desc: "We need moar powah for those hungry hungry spaceports!"
+
+
+#Mineral Module Tech
+tech_material_factory_1: "Nano Products"
+tech_material_factory_1_desc: "An energy intensive machine that makes small amounts of minerals."
+
+tech_material_factory_2: "Asteroid Capturing"
+tech_material_factory_2_desc: "Enables the ability to capture and mine passing asteroids using an energy tractor beam."
+
+tech_material_factory_3: "Moon Strip Mining"
+tech_material_factory_3_desc: "BOOM! Make your presence known, we now strip mine the moon!"
+
+tech_material_factory_4: "Energy to Matter"
+tech_material_factory_4_desc: "A factory that converts energy into minerals."
+
+tech_material_factory_5: "Mining Guilds"
+tech_material_factory_5_desc: "A meeting place for miners to organize themselves and share the latest technology, boosting this planets mineral output significantly."
+
+
+#Food Module Tech
+tech_orbital_hydroponics_2: "Zero Gravity Hydroponics"
+tech_orbital_hydroponics_2_desc: "New technologies allow for additional ways to produce food in orbit."
+
+tech_orbital_hydroponics_3: "Soylent Green Manufacturing"
+tech_orbital_hydroponics_3_desc: "Contains 100% High-energy plankton from the planets ocean..........or maybe...just a little bit....of.......people..."
+
+tech_orbital_hydroponics_4: "Food Replication Technology"
+tech_orbital_hydroponics_4_desc: "Food from energy?? Whaaaat?!?! At least it's not GMO!..........or people."
+
+
+#Ship Assembly Module Tech
+tech_doctrine_manufacturing_standards_1: "Spaceport Automated Shipyard"
+tech_doctrine_manufacturing_standards_1_desc: "Robotic workers and automatic manufacturing allow for a increased build time and a higher quality end-product."
+
+tech_doctrine_manufacturing_standards_2: "Automated Shipyard MK II"
+tech_doctrine_manufacturing_standards_2_desc: "Laser guided cutting, prefab components and remote assembly has again increased overall speed and quality of starships"
+
+tech_doctrine_manufacturing_standards_3: "Automated Shipyard MK III"
+tech_doctrine_manufacturing_standards_3_desc: "Universal components, database uplinks, AI controlled assembly, all these have lead to a built standard that is second to none in the galaxy."
+
+
+#Media and Propaganda Module Tech
+tech_media_1: "Mass Radio Media"
+tech_media_1_desc: "Grants the ability to broadcast Government-Sanctioned Radio Programs on a global scale"
+
+tech_media_2: "Mass Televised Media"
+tech_media_2_desc: "Grants the ability to broadcast Government-Sanctioned Televison Programs on a global scale"
+
+tech_media_psionic: "Telepathic Mood Array"
+tech_media_psionic_desc: "The ability to transmit thoughts and Government-Sanctioned messages telepathically"
+
+
+#Observation and Listening Post Tech
+tech_orbital_sensor_array_2: "Orbital Astrometrics Lab"
+tech_orbital_sensor_array_2_desc: "Provides an increase to sensor range and a boost to planetary science output."
+
+tech_orbital_sensor_array_3: "Orbital Relativity Array"
+tech_orbital_sensor_array_3_desc: "Further increases science outputs and planetary sensor range. The past, like the future, is indefinite and exists only as a spectrum of possibilities."
+
+tech_listening_post_1: "Laser Communication Interception"
+tech_listening_post_1_desc: "Unlocks the ability to use laser technology to intercept incomming fleets FTL signatures and communications."
+
+tech_listening_post_2: "Advanced Laser Com Sensor Physics"
+tech_listening_post_2_desc: "Make those lasers go faster and further than before!.....wait....."
+
+
+#Army Module Tech
+tech_rse_army_1: "Orbital Recruitment Offices"
+tech_rse_army_1_desc: "Recruitment offices on Spaceports provide a boost to civilian army recruitment and a convenient place for people to take the black."
+
+tech_rse_army_2: "Expanded Crew Training Facilities"
+tech_rse_army_2_desc: "Enables training of elite cstarship crewmembers. Crew trained at properly equipped spaceports will be morw effective and deadly at their assigned tasks."
+
+tech_rse_army_3: "Station Security Force Recruitment offices"
+tech_rse_army_3_desc: "Allows the recruitment of an elite military squad to guard your spaceport and operate it's weapons systems."
+
+tech_rse_army_4: "Military Officer Academy"
+tech_rse_army_4_desc: "Duty - Honor - Country"
+
+
+#Science Module Tech
+tech_rse_pop_growth: "Gene-Splicing Lab"
+tech_rse_pop_growth_desc: "Enhanced Gene-splicing technology unlocks an accelerated growth lab for your planet's population."
+
+tech_rse_pop_growth_2: "Robot Manufacturing Lab"
+tech_rse_pop_growth_2_desc: "Enhanced construction techniques and zero-gravity assembly arrays allow for faster and more efficent contruction of robots."
+
+tech_spaceport_researchers: "Dedicated Spaceport Tech Researchers"
+tech_spaceport_researchers_desc: "A dedicated team of researchers specifically for reseaching Spaceport Tech. Side effect, bonus research speeds and alternatives!"
+
+
+#Non-Repeatable Misc Tech Tech
+
+tech_spaceport_researchers: "Spaceport Research Team"
+tech_spaceport_researchers_desc: "A dedicated group of researchers specifically dedicated to researching out new and improved spaceport modules. Through collaboration and resource sharing this team has help increase your overall research speeds and added research alternatives."
+
+
+

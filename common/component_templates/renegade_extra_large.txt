@@ -1,0 +1,79 @@
+
+# Copied mostly from NSC with permission.
+
+# #####################
+# LEVEL 3 XL WEAPONRY #
+# #####################
+
+weapon_component_template = {
+	key = "RENEGADE_ENERGY_LANCE"
+	size = extra_large
+	entity = "invisible_turret_entity"
+	damage = { min = 225 max = 400 }
+	windup = { min = 22 max = 35 }
+	total_fire_time = 60
+	range = 120
+	accuracy = 0.85
+	type = instant
+	power = -150
+	cost = 70
+	armor_penetration = 0.85
+	shield_damage = 0.8
+
+	icon = "GFX_ship_part_energy_lance_1"
+	icon_frame = 1
+
+	component_set = "RENEGADE_ENERGY_LANCE"
+	projectile_gfx = "tachyon_lance"
+	hidden = yes
+}
+
+weapon_component_template = {
+	key = "RENEGADE_ARC_EMITTER"
+	size = extra_large
+	entity = "invisible_turret_entity"
+	damage = { min = 1 max = 300 }
+	windup = { min = 22 max = 30 }
+	total_fire_time = 60
+	range = 120
+	accuracy = 1
+	tracking = 1
+	type = instant
+	power = -140
+	cost = 70
+	armor_penetration = 0.85
+	shield_penetration = 1
+	shield_damage = 0
+
+	icon = "GFX_ship_part_arc_emitter_1"
+	icon_frame = 1
+
+	component_set = "RENEGADE_ARC_EMITTER"
+	projectile_gfx = "focused_arc_emitter"
+	hidden = yes
+}
+
+weapon_component_template = {
+	key = "RENEGADE_MASS_ACCELERATOR"
+	size = extra_large
+	entity = "invisible_turret_entity"
+	damage = { min = 180 max = 400 }
+	windup = { min = 2 max = 25 }
+	total_fire_time = 65
+	range = 120
+	accuracy = 0.95
+	tracking = 0.0
+	type = instant
+	power = -140
+	cost = 70
+	armor_penetration = 0.75
+	shield_penetration = 0.0
+	shield_damage = 1.5
+
+	icon = "GFX_ship_part_mass_accelerator_1"
+	icon_frame = 1
+
+	component_set = "RENEGADE_MASS_ACCELERATOR"
+	projectile_gfx = "adv_kinetic_artillery"
+	hidden = yes
+}

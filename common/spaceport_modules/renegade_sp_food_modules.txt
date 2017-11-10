@@ -1,0 +1,95 @@
+##############################################/
+# Renegade's Spaceports Expanded ############/
+############################################/
+
+#Version 1.1
+#TheRenegade 09/27/17
+
+#################### Food Modules ####################
+  
+#sm_hydroponic_farms_2:0 "Stacked Vegetable Farm"
+hydroponic_farms_2 = {
+	icon = "GFX_spaceport_module_hydroponic_farms_2"
+	section = "RSE_SCIENCE_SPACEPORT_SECTION"
+	construction_days = 180
+	prerequisites = { "tech_orbital_hydroponics_2" }
+	spaceport_level = 3
+	
+	cost = {
+		minerals = 300
+	}
+	
+	required_resources = {
+		energy = 2
+	}
+	
+	planet_modifier = {
+		planet_resource_food_add = 5
+	}
+	ai_weight = { 
+		weight = 10
+		modifier = {
+			factor = 0		
+			from = { has_free_spaceport_module_slot = no }
+		}
+	}
+}
+
+#sm_hydroponic_farms_3:0 "Soylent Green Factory"
+hydroponic_farms_3 = {
+	icon = "GFX_spaceport_module_hydroponic_farms_3"
+	section = "RSE_SCIENCE_SPACEPORT_SECTION"
+	construction_days = 360
+	prerequisites = { "tech_orbital_hydroponics_3" }
+	spaceport_level = 5
+	
+	cost = {
+		minerals = 600
+	}
+	
+	required_resources = {
+		energy = 4
+	}
+	
+	planet_modifier = {
+		planet_resource_food_add = 10
+	}
+	ai_weight = { 
+		weight = 10
+		modifier = {
+			factor = 0		
+			from = { has_free_spaceport_module_slot = no }
+		}
+	}
+}
+
+#sm_hydroponic_farms_4:0 "Food Relicators"
+hydroponic_farms_4 = {
+	icon = "GFX_spaceport_module_hydroponic_farms_4"
+	section = "RSE_SCIENCE_SPACEPORT_SECTION"
+	construction_days = 720
+	prerequisites = { "tech_orbital_hydroponics_4" }
+	spaceport_level = 6
+	
+	cost = {
+		minerals = 800
+	}
+	
+	required_resources = {
+		energy = 8
+	}
+	
+	planet_modifier = {
+		planet_resource_food_add = 16
+	}
+	ai_weight = { 
+		weight = 10
+		modifier = {
+			factor = 0		
+			from = { has_free_spaceport_module_slot = no }
+		}
+	}
+}
+
+#TODO
+#sm_hive_hydroponics_farm:0 "Bacteria Farm"

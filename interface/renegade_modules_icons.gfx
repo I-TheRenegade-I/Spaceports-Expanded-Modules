@@ -1,0 +1,487 @@
+##############################################/
+# Renegade's Spaceports Expanded ############/
+############################################/
+
+#Version 2.0
+#TheRenegade 10/05/17
+
+
+spriteTypes = {
+
+	
+
+### Material Factory
+	spriteType = {
+		name = "GFX_material_factory_1"
+		texturefile = "gfx/interface/icons/modules/spaceport_material_factory_1.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_material_factory_2"
+		texturefile = "gfx/interface/icons/modules/spaceport_material_factory_2.dds"
+	}	
+	spriteType = {
+		name = "GFX_material_factory_3"
+		texturefile = "gfx/interface/icons/modules/spaceport_material_factory_3.dds"
+	}	
+	spriteType = {
+		name = "GFX_material_factory_4"
+		texturefile = "gfx/interface/icons/modules/spaceport_material_factory_4.dds"
+	}	
+	spriteType = {
+		name = "GFX_mining_guilds"
+		texturefile = "gfx/interface/icons/modules/spaceport_mining_guild.dds"
+	}
+	
+### Eneregy
+	spriteType = {
+		name = "GFX_solar_panel_network"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_solar_panels.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_solar_panel_network_2"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_solar_panels_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_solar_panel_network_3"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_solar_panels_3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_solar_panel_network_4"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_solar_panels_4.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_planetary_electrical_grid"
+		texturefile = "gfx/interface/icons/modules/spaceport_electrical_grid.dds"
+	}
+		spriteType = {
+		name = "GFX_solar_panel_network_6"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_solar_panels_6.dds"
+	}
+		spriteType = {
+		name = "GFX_solar_panel_network_7"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_solar_panels_7.dds"
+	}
+	
+### Hydroponics
+	spriteType = {
+		name = "GFX_spaceport_module_hydroponic_farms"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_hydroponic_farms.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_spaceport_module_hydroponic_farms_2"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_hydroponic_farms_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_spaceport_module_hydroponic_farms_3"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_hydroponic_farms_3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_spaceport_module_hydroponic_farms_4"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_hydroponic_farms_4.dds"
+	}
+	
+### Corvette Assembly
+	spriteType = {
+		name = "GFX_spaceport_module_corvette_assembly_yard"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_corvette_assembly_yard.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_spaceport_module_corvette_assembly_yard_2"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_corvette_assembly_yard_2.dds"
+	}
+	
+### Destroyer Assembly
+	spriteType = {
+		name = "GFX_spaceport_module_destroyer_assembly_yard"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_destroyer_assembly_yard.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_spaceport_module_destroyer_assembly_yard_2"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_destroyer_assembly_yard_2.dds"
+	}
+	
+### Cruiser Assembly
+	spriteType = {
+		name = "GFX_spaceport_module_cruiser_assembly_yard"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_cruiser_assembly_yard.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_spaceport_module_cruiser_assembly_yard_2"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_cruiser_assembly_yard_2.dds"
+	}
+	
+### Battleship Assembly
+	spriteType = {
+		name = "GFX_spaceport_module_battleship_assembly_yard"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_battleship_assembly_yard.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_spaceport_module_battleship_assembly_yard_2"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_battleship_assembly_yard_2.dds"
+	}
+	
+### Sync Def
+	spriteType = {
+		name = "GFX_spaceport_synchronized_defenses"
+		texturefile = "gfx/interface/icons/modules/spaceport_modules_synchronized_defences.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_spaceport_synchronized_defenses_2"
+		texturefile = "gfx/interface/icons/modules/spaceport_modules_synchronized_defences_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_spaceport_synchronized_defenses_3"
+		texturefile = "gfx/interface/icons/modules/spaceport_modules_synchronized_defences_3.dds"
+	}
+		spriteType = {
+		name = "GFX_spaceport_synchronized_defenses_4"
+		texturefile = "gfx/interface/icons/modules/spaceport_modules_synchronized_defences_4.dds"
+	}
+	
+	
+### Engineering Bay
+	spriteType = {
+		name = "GFX_spaceport_module_engineering_bay"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_engineering_bay.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_spaceport_module_engineering_bay_2"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_engineering_bay_2.dds"
+	}
+	
+### Assembly Yard
+	spriteType = {
+		name = "GFX_spaceport_module_ship_assembly_yard"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_ship_assembly_yard.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_spaceport_module_ship_assembly_yard_2"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_ship_assembly_yard_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_spaceport_module_ship_assembly_yard_3"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_ship_assembly_yard_3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_spaceport_module_ship_assembly_yard_4"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_ship_assembly_yard_4.dds"
+	}
+		spriteType = {
+		name = "GFX_spaceport_module_ship_assembly_yard_5"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_ship_assembly_yard_5.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_spaceport_module_ship_assembly_yard_6"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_ship_assembly_yard_6.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_spaceport_module_ship_assembly_yard_7"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_ship_assembly_yard_7.dds"
+	}
+	
+### Crew QTRs
+	spriteType = {
+		name = "GFX_spaceport_module_crew_quarters"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_crew_quarters.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_spaceport_module_crew_quarters_2"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_crew_quarters_2.dds"
+	}
+	
+### Reinforced Hull
+	spriteType = {
+		name = "GFX_spaceport_module_reinforced_hull_layers_1"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_reinforced_hull_layers_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_spaceport_module_reinforced_hull_layers_2"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_reinforced_hull_layers_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_spaceport_module_reinforced_hull_layers_3"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_reinforced_hull_layers_3.dds"
+	}
+	
+### Bulkheads
+	spriteType = {
+		name = "GFX_spaceport_module_bulkhead_enhancements_1"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_bulkhead_enhancements_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_spaceport_module_bulkhead_enhancements_2"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_bulkhead_enhancements_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_spaceport_module_bulkhead_enhancements_3"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_bulkhead_enhancements_3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_spaceport_module_bulkhead_enhancements_4"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_bulkhead_enhancements_4.dds"
+	}
+	
+### Listening Post
+	spriteType = {
+		name = "GFX_spaceport_module_listening_post_1"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_listening_post_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_spaceport_module_listening_post_2"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_listening_post_2.dds"
+	}
+	
+### Observatory
+	spriteType = {
+		name = "GFX_spaceport_module_observatory_2"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_observatory_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_spaceport_module_observatory_3"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_observatory_3.dds"
+	}
+	
+### State Media
+	spriteType = {
+		name = "GFX_spaceport_module_media_news_1"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_state_media_news_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_spaceport_module_media_news_2"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_state_media_news_2.dds"
+	}
+	
+### War Media
+	spriteType = {
+		name = "GFX_spaceport_module_ministry_of_war_1"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_ministry_of_war_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_spaceport_module_ministry_of_war_2"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_ministry_of_war_2.dds"
+	}
+	
+### University Labs
+	spriteType = {
+		name = "GFX_spaceport_module_university_physics_lab"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_university_physics_lab.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_spaceport_module_university_society_lab"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_university_society_lab.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_spaceport_module_university_engineering_lab"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_university_engineering_lab.dds"
+	}
+	
+### Naval Corps
+	spriteType = {
+		name = "GFX_spaceport_module_naval_corp_of_engineers_1"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_naval_corp_of_engineers_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_spaceport_module_naval_corp_of_engineers_2"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_naval_corp_of_engineers_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_spaceport_module_naval_corp_of_engineers_3"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_naval_corp_of_engineers_3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_spaceport_module_naval_corp_of_engineers_4"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_naval_corp_of_engineers_4.dds"
+	}
+	
+### Private News
+	spriteType = {
+		name = "GFX_spaceport_module_private_news_radio_1"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_private_news_radio_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_spaceport_module_private_news_radio_2"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_private_news_radio_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_spaceport_module_psionic_mood_array"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_psionic_mood_array.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_spaceport_module_hive_mind_network"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_hive_mind_network.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_spaceport_module_psionic_engineering_academy"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_psionic_engineering_academy.dds"
+	}
+	
+### Shields
+	spriteType = {
+		name = "GFX_spaceport_module_spaceport_shield_1"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_spaceport_shield_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_spaceport_module_spaceport_shield_2"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_spaceport_shield_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_spaceport_module_spaceport_shield_3"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_spaceport_shield_3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_spaceport_module_spaceport_shield_4"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_spaceport_shield_4.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_spaceport_module_spaceport_shield_5"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_spaceport_shield_5.dds"
+	}
+	
+### Robotics Bay
+	spriteType = {
+		name = "GFX_spaceport_module_robot_bay"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_robot_bay.dds"
+	}
+	spriteType = {
+		name = "GFX_spaceport_module_gene_splicing"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_gene_splicing.dds"
+	}
+	
+## Army	
+
+	spriteType = {
+		name = "GFX_spaceport_module_army_recruit"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_army_recruit.dds"
+	}
+	spriteType = {
+		name = "GFX_spaceport_module_officer_academy"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_officer_academy.dds"
+	}
+	spriteType = {
+		name = "GFX_spaceport_module_security_force"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_security_force.dds"
+	}	
+	spriteType = {
+		name = "GFX_spaceport_module_crew_training"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_crew_training.dds"
+	}	
+	
+## Weapons
+
+	spriteType = {
+		name = "GFX_spaceport_module_snare"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_snare.dds"
+	}
+	spriteType = {
+		name = "GFX_spaceport_missles_l"
+		texturefile = "gfx/interface/icons/modules/spaceport_missles_l.dds"
+	}
+	spriteType = {
+		name = "GFX_spaceport_missles_m"
+		texturefile = "gfx/interface/icons/modules/spaceport_missles_m.dds"
+	}
+	spriteType = {
+		name = "GFX_spaceport_missles_s"
+		texturefile = "gfx/interface/icons/modules/spaceport_missles_s.dds"
+	}
+	spriteType = {
+		name = "GFX_spaceport_missles_xl"
+		texturefile = "gfx/interface/icons/modules/spaceport_missles_xl.dds"
+	}
+	spriteType = {
+		name = "GFX_spaceport_module_laser_l"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_laser_l.dds"
+	}
+	spriteType = {
+		name = "GFX_spaceport_module_laser_m"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_laser_m.dds"
+	}
+	spriteType = {
+		name = "GFX_spaceport_module_laser_s"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_laser_s.dds"
+	}
+	spriteType = {
+		name = "GFX_spaceport_module_laser_xl"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_laser_xl.dds"
+	}
+	spriteType = {
+		name = "GFX_spaceport_mass_drivers_l"
+		texturefile = "gfx/interface/icons/modules/spaceport_mass_drivers_l.dds"
+	}
+	spriteType = {
+		name = "GFX_spaceport_mass_drivers_m"
+		texturefile = "gfx/interface/icons/modules/spaceport_mass_drivers_m.dds"
+	}
+	spriteType = {
+		name = "GFX_spaceport_mass_drivers_s"
+		texturefile = "gfx/interface/icons/modules/spaceport_mass_drivers_s.dds"
+	}
+	spriteType = {
+		name = "GFX_spaceport_mass_drivers_xl"
+		texturefile = "gfx/interface/icons/modules/spaceport_mass_drivers_xl.dds"
+	}
+	spriteType = {
+		name = "GFX_spaceport_arc_emitter_xl"
+		texturefile = "gfx/interface/icons/modules/spaceport_arc_emitter_xl.dds"
+	}
+	spriteType = {
+		name = "GFX_spaceport_energy_torpedoes"
+		texturefile = "gfx/interface/icons/modules/spaceport_energy_torpedoes.dds"
+	}
+	spriteType = {
+		name = "GFX_spaceport_module_fighter_1"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_fighter_1.dds"
+	}
+	spriteType = {
+		name = "GFX_spaceport_module_fighter_2"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_fighter_2.dds"
+	}
+	
+	
+
+
+	
+}

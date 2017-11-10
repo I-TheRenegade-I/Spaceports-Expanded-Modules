@@ -1,0 +1,146 @@
+##############################################/
+# Renegade's Spaceports Expanded ############/
+############################################/
+
+#Version 2.0
+#TheRenegade 10/05/17
+
+
+# sm_spaceport_science_lab_1:0 "Engineering Corps"
+spaceport_science_lab_1 = {
+	icon = "GFX_spaceport_module_university_engineering_lab"
+	section = "RSE_SCIENCE_SPACEPORT_SECTION"
+	prerequisites = { "tech_engineering_lab_3" }
+	spaceport_level = 5
+	replaceable = yes
+	construction_days = 360
+	#hidden = yes
+	
+	cost = {
+		minerals = 500
+	}
+	
+	required_resources = {
+		energy = 2
+	}
+	
+	planet_modifier = {
+		tile_resource_physics_research_mult = 0.05
+		tile_resource_society_research_mult = 0.05
+		tile_resource_engineering_research_mult = 0.50
+	}
+	ai_weight = { 
+		weight = 7
+	}
+}
+
+# sm_spaceport_science_lab_2:0 "Civic Engagement Council"
+spaceport_science_lab_2 = {
+	icon = "GFX_spaceport_module_university_society_lab"
+	section = "RSE_SCIENCE_SPACEPORT_SECTION"
+	prerequisites = { "tech_biolab_3" }
+	spaceport_level = 5
+	replaceable = yes
+	construction_days = 360
+	#hidden = yes
+	
+	cost = {
+		minerals = 500
+	}
+	
+	required_resources = {
+		energy = 2
+	}
+	
+	planet_modifier = {
+		tile_resource_physics_research_mult = 0.05
+		tile_resource_society_research_mult = 0.50
+		tile_resource_engineering_research_mult = 0.05
+	}
+	ai_weight = { 
+		weight = 7
+	}	
+}
+
+# sm_spaceport_science_lab_3:0 "Large Hadron Collider"
+spaceport_science_lab_3 = {
+	icon = "GFX_spaceport_module_university_physics_lab"
+	section = "RSE_SCIENCE_SPACEPORT_SECTION"
+	prerequisites = { "tech_physics_lab_3" }
+	spaceport_level = 5
+	replaceable = yes
+	construction_days = 360
+	#hidden = yes
+	
+	cost = {
+		minerals = 500
+	}
+	
+	required_resources = {
+		energy = 2
+	}
+	
+	planet_modifier = {
+		tile_resource_physics_research_mult = 0.50
+		tile_resource_society_research_mult = 0.05
+		tile_resource_engineering_research_mult = 0.05
+	}
+	ai_weight = { 
+		weight = 7
+	}	
+}
+
+
+#  sm_spaceport_science_lab_4:0 "Robot Manufacturing Lab"
+spaceport_science_lab_4 = {
+	icon = "GFX_spaceport_module_robot_bay"
+	section = "RSE_SCIENCE_SPACEPORT_SECTION"
+	prerequisites = { "tech_rse_pop_growth_2" }
+	spaceport_level = 6
+	replaceable = yes
+	construction_days = 360
+	#hidden = yes
+	
+	cost = {
+		minerals = 500
+		influence = 100
+	}
+	
+	required_resources = {
+		energy = 3
+	}
+	
+	planet_modifier = {
+		pop_robot_build_speed_mult = 0.40
+	}
+	ai_weight = { 
+		weight = 1
+	}
+}
+
+#  sm_spaceport_science_lab_5:0 "Gene-Splicing Lab"
+spaceport_science_lab_5 = {
+	icon = "GFX_spaceport_module_gene_splicing"
+	section = "RSE_SCIENCE_SPACEPORT_SECTION"
+	prerequisites = { "tech_rse_pop_growth_2" }
+	spaceport_level = 6
+	replaceable = yes
+	construction_days = 360
+	#hidden = yes
+	
+	cost = {
+		minerals = 500
+		influence = 100
+	}
+	
+	required_resources = {
+		energy = 3
+	}
+	
+	planet_modifier = {
+		pop_growth_speed = 0.40
+	}
+	ai_weight = { 
+		weight = 1
+	}
+}

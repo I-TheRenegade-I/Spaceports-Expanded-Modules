@@ -1,0 +1,147 @@
+##############################################/
+# Renegade's Spaceports Expanded ############/
+############################################/
+
+#Version 1.1
+#TheRenegade 10/05/17
+
+#################### Army Modules ####################
+
+# sm_spaceport_military_1:0 "Crew Training Facilities"
+spaceport_military_1 = {
+	icon = "GFX_spaceport_module_crew_training"
+	section = "RSE_HANGARBAY_SPACEPORT_SECTION"
+	prerequisites = { "tech_rse_army_2"}
+	spaceport_level = 4
+	replaceable = yes
+	construction_days = 180
+	#hidden = yes
+	
+	cost = {
+		minerals = 350
+	}
+	
+	required_resources = {
+		energy = 2
+	}
+	
+	ship_modifier = {
+		ship_fire_rate_mult = 0.05
+		ship_weapon_damage = 0.05
+		ship_evasion_add = 3
+	}
+	
+	ai_weight = { 
+		weight = 2
+		modifier = {
+			factor = 0		
+			from = { has_free_spaceport_module_slot = no }
+		}
+	}
+}
+
+# sm_spaceport_military_2:0 "Military Officer Academy"
+spaceport_military_2 = {
+	icon = "GFX_spaceport_module_officer_academy"
+	section = "RSE_HANGARBAY_SPACEPORT_SECTION"
+	prerequisites = { "tech_rse_army_4" }
+	spaceport_level = 7
+	replaceable = yes
+	construction_days = 360
+	#hidden = yes
+	
+	cost = {
+		minerals = 750
+	}
+	
+	required_resources = {
+		energy = 4
+	}
+	
+	station_modifier = {
+		navy_size_mult = 0.025	
+	}
+	
+	ship_modifier = {
+		ship_interstellar_speed_mult = 0.1
+		ship_sensor_range_mult = 0.25
+		ship_weapon_range_mult = 0.1
+		ship_combat_speed_mult = 0.1
+	}
+	
+	ai_weight = { 
+		weight = 2
+		modifier = {
+			factor = 0		
+			from = { has_free_spaceport_module_slot = no }
+		}
+	}
+	
+}
+
+# sm_spaceport_military_3:0 "Station Security Forces"
+spaceport_military_3 = {
+	icon = "GFX_spaceport_module_security_force"
+	section = "RSE_HANGARBAY_SPACEPORT_SECTION"
+	prerequisites = { "tech_rse_army_3" }
+	spaceport_level = 5
+	replaceable = yes
+	construction_days = 360
+	#hidden = yes
+	
+	cost = {
+		minerals = 500
+	}
+	
+	required_resources = {
+		energy = 2
+	}
+	
+	station_modifier = {
+		ship_fire_rate_mult = 0.25
+		ship_weapon_damage = 0.1
+		ship_weapon_range_mult = 0.05
+	}	
+	ai_weight = { 
+		weight = 2
+		modifier = {
+			factor = 0		
+			from = { has_free_spaceport_module_slot = no }
+		}
+	}
+}
+
+# sm_spaceport_military_4:0 "Orbital Recruitment Offices"
+spaceport_military_4 = {
+	icon = "GFX_spaceport_module_army_recruit"
+	section = "RSE_HANGARBAY_SPACEPORT_SECTION"
+	prerequisites = { "tech_rse_army_1" }
+	spaceport_level = 2
+	replaceable = yes
+	construction_days = 360
+	#hidden = yes
+	
+	cost = {
+		minerals = 300
+	}
+	
+	required_resources = {
+		energy = 2
+	}
+	
+	planet_modifier = {
+		planet_army_build_speed_mult = 0.35
+	}	
+	station_modifier = {
+		navy_size_mult = 0.025	
+	}
+	ai_weight = { 
+		weight = 1
+		modifier = {
+			factor = 0		
+			from = { has_free_spaceport_module_slot = no }
+		}
+	}
+}
+
+

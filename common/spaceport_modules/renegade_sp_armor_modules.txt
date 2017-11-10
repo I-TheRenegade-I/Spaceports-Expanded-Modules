@@ -1,0 +1,80 @@
+##############################################/
+# Renegade's Spaceports Expanded ############/
+############################################/
+
+#Version 1.1
+#TheRenegade 10/02/17
+
+#################### Armor Modules ####################
+
+
+#rse_module_armor_1:0 "Reinforced Blast Doors"
+rse_module_armor_1 = {
+	icon = "GFX_ship_part_armor_1"
+	section = "RSE_SCIENCE_SPACEPORT_SECTION"
+	construction_days = 180	
+	prerequisites = { "tech_rse_module_armor_1" }
+	spaceport_level = 2
+	
+	cost = {
+		minerals = 400
+	}
+	
+	station_modifier = {
+		ship_armor_add = 50
+	}
+	ai_weight = { 
+		weight = 15 #Hitpoints are a great thing
+	}
+}
+
+#rse_module_armor_2:0 "Titanium Alloy Upgrade Kit"
+rse_module_armor_2 = {
+	icon = "GFX_ship_part_armor_2"
+	section = "RSE_HANGARBAY_SPACEPORT_SECTION"
+	construction_days = 360	
+	prerequisites = { "tech_rse_module_armor_2" }
+	spaceport_level = 3
+	
+	cost = {
+		minerals = 600
+	}
+		
+	station_modifier = {
+		ship_armor_add = 150
+		ship_hitpoints_mult = 0.3
+	}
+	ai_weight = { 
+		weight = 6 #Hitpoints are a great thing
+	}
+}
+
+#rse_module_armor_3:0 "Ablative Armor Upgrade Kit"
+rse_module_armor_3 = {
+	icon = "GFX_ship_part_armor_3"
+	section = "RSE_HANGARBAY_SPACEPORT_SECTION"
+	construction_days = 720	
+	prerequisites = { "tech_rse_module_armor_3" }
+	spaceport_level = 6
+	
+	cost = {
+		minerals = 800
+	}
+	required_resources = {
+		energy = 3
+		minerals = 2
+	}	
+	station_modifier = {
+		ship_armor_add = 250
+		ship_hitpoints_mult = 0.7
+	}
+	ai_weight = { 
+		weight = 3 #Hitpoints are a great thing
+	}
+}
+
+#TODO
+#sm_ai_armor:0 "AI Nano Armor"
+
+# Thoughts - need Dangerous AI tech. 
+# Event for negative hull/armor at some point??

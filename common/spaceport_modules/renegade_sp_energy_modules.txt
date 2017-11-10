@@ -1,0 +1,143 @@
+##############################################/
+# Renegade's Spaceports Expanded ############/
+############################################/
+
+#Version 1.1
+#TheRenegade 09/27/17
+
+#################### Energy Modules ####################
+ 
+#sm_solar_panel_network2:0 "Solar Panel MK II"
+solar_panel_network2 = {
+	icon = "GFX_solar_panel_network_2"
+	section = "RSE_ASSEMBLYYARD_SPACEPORT_SECTION"
+	construction_days = 180
+	prerequisites = { "tech_solar_panel_network_2" }
+	spaceport_level = 3
+	
+	cost = {
+		minerals = 400
+	}	
+	
+	produced_resources = {
+		energy = 6
+	}
+	
+	ai_weight = {
+		factor = 10
+	}
+}
+
+#sm_solar_panel_network3:0 "Solar Panel MK III"
+solar_panel_network3 = {
+	icon = "GFX_solar_panel_network_3"
+	section = "RSE_ASSEMBLYYARD_SPACEPORT_SECTION"
+	construction_days = 360
+	prerequisites = { "tech_solar_panel_network_3" }
+	spaceport_level = 4
+	
+	cost = {
+		minerals = 600
+	}	
+	
+	produced_resources = {
+		energy = 8
+	}
+	
+	ai_weight = {
+		factor = 10
+	}
+}
+
+#sm_solar_panel_network4:0 "Solar Panel MK IV"
+solar_panel_network4 = {
+	icon = "GFX_solar_panel_network_4"
+	section = "RSE_ASSEMBLYYARD_SPACEPORT_SECTION"
+	construction_days = 360
+	prerequisites = { "tech_solar_panel_network_4" }
+	spaceport_level = 5
+	
+	cost = {
+		minerals = 800
+	}	
+	
+	produced_resources = {
+		energy = 16
+	}
+	
+	ai_weight = {
+		factor = 10
+	}
+}
+
+#sm_solar_panel_network5:0 "Planetary Energy Grid"
+solar_panel_network5 = {
+	icon = "GFX_planetary_electrical_grid"
+	section = "RSE_ASSEMBLYYARD_SPACEPORT_SECTION"
+	construction_days = 540
+	prerequisites = { "tech_solar_panel_network_5" }
+	spaceport_level = 10
+	
+	cost = {
+		minerals = 1000
+		energy = 250
+		influence = 75
+	}	
+	
+	produced_resources = {
+		unity = 5
+	}
+	
+	planet_modifier = {
+		tile_resource_energy_mult = 0.15
+	}
+	
+	ai_weight = {
+		factor = 10
+	}
+}
+
+#sm_solar_panel_network6:0 "Spaceport Anti-Matter Power Plant"
+solar_panel_network6 = {
+	icon = "GFX_solar_panel_network_6"
+	section = "RSE_ASSEMBLYYARD_SPACEPORT_SECTION"
+	construction_days = 540
+	prerequisites = { "tech_solar_panel_network_6" }
+	spaceport_level = 10
+	
+	cost = {
+		minerals = 500
+		energy = 500
+	}	
+	
+	produced_resources = {
+		energy = 32
+	}
+
+	ai_weight = {
+		factor = 10
+	}
+}
+
+#sm_solar_panel_network7:0 "Spaceport Zero-Point Power Plant"
+solar_panel_network7 = {
+	icon = "GFX_solar_panel_network_7"
+	section = "RSE_ASSEMBLYYARD_SPACEPORT_SECTION"
+	construction_days = 720
+	prerequisites = { "tech_solar_panel_network_7" }
+	spaceport_level = 15
+	
+	cost = {
+		minerals = 500
+		energy = 750
+		influence = 75
+	}	
+	
+	produced_resources = {
+		energy = 65
+	}
+
+	ai_weight = {
+		factor = 10
+	}
+}

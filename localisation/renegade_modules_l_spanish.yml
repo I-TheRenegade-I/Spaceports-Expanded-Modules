@@ -1,0 +1,210 @@
+﻿#l_braz_por:
+#l_english:
+#l_french:
+#l_german:
+#l_polish:
+#l_russian:
+l_spanish:
+
+##############################################/
+# Renegade's Spaceports Expanded ############/
+############################################/
+
+#########################################/
+# Spaceport Modules ####################/
+#######################################/
+
+#Version 2.0
+#TheRenegade 10/04/17
+
+#Shield Modules
+sm_rse_spaceport_shield_1: "Shield Array MK I"
+sm_rse_spaceport_shield_1_desc: "§WSpaceport Modifier\nShield Hitpoints: §G2500§!\nShield Regeneration: §G15§!§!"
+
+sm_rse_spaceport_shield_2: "Shield MK I to MK II Upgrade Kit"
+sm_rse_spaceport_shield_2_desc: "§RRequires §Y$sm_rse_spaceport_shield_1$§! to function.§!\n§WSpaceport Modifier\nShield Hitpoints: §G+200%§!\nShield Regeneration: §G45§!\nShield Regen Multiplier: §G+100%§!§!"
+
+sm_rse_spaceport_shield_3: "Shield MK II to MK III Upgrade Kit"
+sm_rse_spaceport_shield_3_desc: "§RRequires §Y$sm_rse_spaceport_shield_2$§! to function.§!\n§WSpaceport Modifier\nShield Hitpoints: §G+500%§!\nShield Regeneration: §G50§!\nShield Regen Multiplier: §G+250%§!§!"
+
+#Hull Modules
+sm_rse_module_hull_1: "Bulkhead Reinforcements"
+
+sm_rse_module_hull_2: "Neutronium Skin Upgrade Kit"
+sm_rse_module_hull_2_desc: "§RRequires §Y$sm_rse_module_hull_1$§! to function.§!\n§LThis Neutronium skin has introduced self-regeneration technology to your Spaceport.§!\n§WMonthly Hull Regeneration: §G2.5%§!§!"
+
+sm_rse_module_hull_3: "Living Metal Construction Kit"
+sm_rse_module_hull_3_desc: "§RRequires §Y$sm_rse_module_hull_2$§! to function.§!\n§LConstructing your Spaceport with a Living Metal skin has allowed increased self-regeneration.§!\n§WMonthly Hull Regeneration: §G5%§!§!"
+
+#Armor Modules
+sm_rse_module_armor_1: "Reinforced Blast Doors"
+
+sm_rse_module_armor_2: "Neutronium Alloy Upgrade Kit"
+sm_rse_module_armor_2_desc: "§RREQUIRES§! §YREINFORCED BLAST DOORS§! §RTO FUNCTION§!"
+
+sm_rse_module_armor_3: "Ablative Armor Upgrade Kit"
+sm_rse_module_armor_3_desc: "§RREQUIRES§! §YNEUTRONIUM ALLOY UPGRADE§! §RTO FUNCTION§!"
+
+
+#Weapon Modules
+sm_synchronized_defenses_2: "Semi-Autonomous Defenses"
+sm_synchronized_defenses_2_desc: "§RREQUIRES§! §YSYNCHRONIZED DEFENSES§! §RTO FUNCTION§!"
+
+sm_synchronized_defenses_3: "Autonomous Defense Network"
+sm_synchronized_defenses_3_desc: "§RREQUIRES§! §YSEMI-AUTONOMOUS DEFENSES§! §RTO FUNCTION§!"
+
+sm_synchronized_defenses_4: "AI Controlled Defensive Matrix"
+sm_synchronized_defenses_4_desc: "§LTurn over complete control of all Spaceport defensive operations to a central AI network.§!\n§RREQUIRES§! §YSEMI-AUTONOMOUS DEFENSES§! §RTO FUNCTION§!"
+
+sm_rse_module_hangar_1: "Station Fighter Squadron"
+sm_rse_module_hangar_1_desc: "§LAn Elite Fighter Squadron mainly used for anti-fighter and anti-missle point defense.§!\n§WSpaceport Modifier\nFighter Squadrons: §!§G3§!§W\nBomber Squadrons: §!§G1§!"
+
+sm_rse_module_hangar_2: "Station Bomber Squadron"
+sm_rse_module_hangar_2_desc: "§LAn Elite Bomber Squadron mainly used for anti-ship defenses§!\n§WSpaceport Modifier\nBomber Squadrons: §!§G3§!§W\nFighter Squadrons: §!§G1§!"
+
+rse_HANGAR: "Station Hangar"
+rse_HANGAR_BOMBER: "Station Bomber"
+rse_HANGAR_FIGHTER: "Station Fighter"
+
+sm_rse_module_weapon_k1: "Gauss Cannon Array MK I"
+sm_rse_module_weapon_k1_desc: "§YA collection of §RSmall§! weapons for your Spaceport.§!\n§WSpaceport Modifier\nSmall Weapon Slots +§!§G3§!§W\nMedium Weapon Slots +§!§G2§!§W\nLarge Weapon Slots +§!§G1§!§W\nMounted Weaponry: §!§GGauss Cannon§!"
+
+sm_rse_module_weapon_k2: "Gauss Cannon Array MK II"
+sm_rse_module_weapon_k2_desc: "§YA collection of §RMedium§! weapons for your Spaceport.§!\n§WSpaceport Modifier\nSmall Weapon Slots +§!§G2§!§W\nMedium Weapon Slots +§!§G4§!§W\nLarge Weapon Slots +§!§G2§!§W\nMounted Weaponry: §!§GGauss Cannon§!"
+
+sm_rse_module_weapon_k3: "Gauss Cannon Array MK III"
+sm_rse_module_weapon_k3_desc: "§YA collection of §RLarge§! weapons for your Spaceport.§!\n§WSpaceport Modifier\nSmall Weapon Slots +§!§G1§!§W\nMedium Weapon Slots +§!§G1§!§W\nLarge Weapon Slots +§!§G5§!§W\nMounted Weaponry: §!§GGauss Cannon§!"
+
+sm_rse_module_weapon_k4: "Gauss Cannon Array MK IV"
+sm_rse_module_weapon_k4_desc: "§YA collection of §RExtra Large§! weapons for your Spaceport.§!\n§WSpaceport Modifier\nExtra Large Weapon Slots +§!§G2§!§W\nMounted Weaponry: §!§GGiga Cannon§!"
+
+sm_rse_module_weapon_l1: "Laser Array MK I"
+sm_rse_module_weapon_l1_desc: "§YA collection of §RSmall§! weapons for your Spaceport.§!\n§WSpaceport Modifier\nSmall Weapon Slots +§!§G3§!§W\nMedium Weapon Slots +§!§G4§!§W\nLarge Weapon Slots +§!§G1§!§W\nMounted Weaponry: §!§GGamma Laser§!"
+
+sm_rse_module_weapon_l2: "Laser Array MK II"
+sm_rse_module_weapon_l2_desc: "§YA collection of §RMedium§! weapons for your Spaceport.§!\n§WSpaceport Modifier\nSmall Weapon Slots +§!§G2§!§W\nMedium Weapon Slots +§!§G3§!§W\nLarge Weapon Slots +§!§G2§!§W\nMounted Weaponry: §!§GGamma Laser§!"
+
+sm_rse_module_weapon_l3: "Laser Array MK III"
+sm_rse_module_weapon_l3_desc: "§YA collection of §RLarge§! weapons for your Spaceport.§!\n§WSpaceport Modifier\nSmall Weapon Slots +§!§G1§!§W\nMedium Weapon Slots +§!§G1§!§W\nLarge Weapon Slots +§!§G5§!§W\nMounted Weaponry: §!§GGamma Laser§!"
+
+sm_rse_module_weapon_l4: "Laser Array MK IV"
+sm_rse_module_weapon_l4_desc: "§YA collection of §RExtra Large§! weapons for your Spaceport.§!\n§WSpaceport Modifier\nExtra Large Weapon Slots +§!§G2§!§W\nMounted Weaponry: §!§GTachyon Lance§!"
+
+sm_rse_module_weapon_m1: "Missile Array MK I"
+sm_rse_module_weapon_m1_desc: "§YA collection of §RSmall§! weapons for your Spaceport.§!\n§WSpaceport Modifier\nSmall Weapon Slots +§!§G3§!§W\nMedium Weapon Slots +§!§G2§!§W\nLarge Weapon Slots +§!§G1§!§W\nMounted Weaponry: §!§GMarauder Missiles§!"
+
+sm_rse_module_weapon_m2: "Missile Array MK II"
+sm_rse_module_weapon_m2_desc: "§YA collection of §RMedium§! weapons for your Spaceport.§!\n§WSpaceport Modifier\nSmall Weapon Slots +§!§G2§!§W\nMedium Weapon Slots +§!§G4§!§W\nLarge Weapon Slots +§!§G2§!§W\nMounted Weaponry: §!§GMarauder Missiles§!"
+
+sm_rse_module_weapon_m3: "Missile Array MK III"
+sm_rse_module_weapon_m3_desc: "§YA collection of §RLarge§! weapons for your Spaceport.§!\n§WSpaceport Modifier\nSmall Weapon Slots +§!§G1§!§W\nMedium Weapon Slots +§!§G1§!§W\nLarge Weapon Slots +§!§G5§!§W\nMounted Weaponry: §!§GMarauder Missiles§!"
+
+sm_rse_module_weapon_m4: "Missile Array MK IV"
+sm_rse_module_weapon_m4_desc: "§YA collection of §RExtra Large§! weapons for your Spaceport.§!\n§WSpaceport Modifier\nExtra Large Weapon Slots +§!§G2§!§W\nMounted Weaponry: §!§GDevastator Torpedoes§!"
+
+sm_rse_module_weapon_xl_1: "Focused Arc Emitter Battery"
+sm_rse_module_weapon_xl_1_desc: "§YA collection of §RExtra Large§! weapons for your Spaceport.§!\n§WSpaceport Modifier\nExtra Large Weapon Slots +§!§G2§!§W\nMounted Weaponry: §!§GFocused Arc Emitter§!"
+
+sm_rse_module_weapon_xl_2: "Neutron Torpedo Battery"
+sm_rse_module_weapon_xl_2_desc: "§YA collection of §RExtra Large§! weapons for your Spaceport.§!\n§WSpaceport Modifier\nExtra Large Weapon Slots +§!§G2§!§W\nMounted Weaponry: §!§GNeutron Torpedoes§!"
+
+
+#Energy Modules
+sm_solar_panel_network2: "Solar Panel MK II"
+sm_solar_panel_network3: "Solar Panel MK III"
+sm_solar_panel_network4: "Solar Panel MK IV"
+sm_solar_panel_network5: "Planetary Energy Grid"
+sm_solar_panel_network5_desc: "§LUsing high gain solar panels, we can collect pure solar radiation and beam the increased energy down to our planet below, boosting the efficency of it's power plants.§!\n§WPlanet Modifier§!\n§WEnergy Output §!§G+15%§!"
+sm_solar_panel_network6: "Spaceport Anti-Matter Power Plant"
+sm_solar_panel_network7: "Spaceport Zero-Point Power Plant"
+
+#Mineral Modules
+sm_material_factory_1: "Nano Factory"
+sm_material_factory_2: "Asteroid Processing Plant"
+sm_material_factory_3: "Moon Strip Mining"
+sm_material_factory_4: "Energy to Matter Plant"
+sm_material_factory_5: "Mining Guilds"
+sm_material_factory_5_desc: "§LProvides a meeting place for mienrs and their workers, sharing the newest information and technology.§!\n§WPlanet Modifier§!\n§WMineral Output §!§G+15%§!"
+
+#Food Modules
+sm_hydroponic_farms_2: "Stacked Vegetable Farm"
+sm_hydroponic_farms_3: "Soylent Green Factory"
+sm_hydroponic_farms_4: "Food Relicators"
+
+#Ship Assembly Modules
+sm_ship_assembly_yards_1: "Automated Shipyard MK I"
+sm_ship_assembly_yards_2: "Automated Shipyard MK II"
+sm_ship_assembly_yards_3: "Automated Shipyard MK III"
+
+sm_ship_assembly_yards_5: "Sub-Capital Class Shipyard"
+sm_ship_assembly_yards_5_desc: "§LAllows more efficent construction of Sub-Capital Class starships§!\n§RNSC DEPENDANT§!"
+
+sm_ship_assembly_yards_6: "Capital Class Shipyard"
+sm_ship_assembly_yards_6_desc: "§LAllows more efficent construction of Capital Class starships§!\n§RNSC DEPENDANT§!"
+
+sm_ship_assembly_yards_7: "Super-Capital Class Shipyard"
+sm_ship_assembly_yards_7_desc: "§LAllows more efficent construction of Super-Capital Class starships§!\n§RNSC DEPENDANT§!"
+
+sm_engineering_bay_2: "Robotic Engineering Bay"
+sm_psionic_engineering_academy: "Psionic Engineering Academy"
+
+#Media and Propaganda Modules
+sm_ministry_of_war_1: "Mininstry of War Radio Station"
+sm_ministry_of_war_1_desc: "§LEnables the ability to transmit pro-government and pro-war radio broadcasts.§!"
+
+sm_ministry_of_war_2: "Mininstry of War Television Station"
+sm_ministry_of_war_2_desc: "§LEnables the ability to transmit pro-government and pro-war television broadcasts.§!"
+
+sm_state_media_news_1: "State Media Radio Station"
+sm_state_media_news_1_desc: "§LEnables the ability to tranmits Government-sanctioned radio programs across an entire world.§!"
+
+sm_state_media_news_2: "State Media Television Station"
+sm_state_media_news_2_desc: "§LEnables the ability to tranmits Government-sanctioned television programs across an entire world.§!"
+
+sm_private_news_radio_1: "Private Radio Station"
+sm_private_news_radio_1_desc: "§LAllows the creation of a private radio station on your Spaceports.§!"
+
+sm_private_news_radio_2: "Syndicated Radio Station"
+sm_private_news_radio_2_desc: "§LAllows the creation of a Synidacted radio station on your Spaceports, now you'll never miss your show!§!"
+
+sm_psionic_mood_array: "Orbital Telepathic Mood Array"
+sm_psionic_mood_array_desc: "§LEnables the ability to make people happy, FROM SPACE!!!§!"
+
+sm_ministry_of_propaganda_1: "Propganda Pamplets"
+sm_ministry_of_propaganda_1_desc: "§LProvides the means of leaving pro-government literature in public areas.§!"
+
+sm_ministry_of_propaganda_2: "State Police"
+sm_ministry_of_propaganda_2_desc: "§LAllows the recruitment of a State Police, if people won't be happy, we'll force them to be happy.§!"
+
+
+#Observation and Listening Posts
+sm_listening_post_1: "Listening Post MK I"
+sm_listening_post_1_desc: "§LRecent advances in technology has allowed you to see further into the galaxy.§!"
+
+sm_listening_post_2: "Listening Post MK II"
+sm_listening_post_2_desc: "§LTechnological breakthroughs have allowed the creation of the epitome of early warning systems.§!"
+
+sm_observatory_2: "Astrometrics Lab"
+sm_observatory_3: "Relativity Array"
+sm_hive_mind_network: "Orbital Hive Vibration Array"
+
+#Army Modules
+sm_spaceport_military_1: "Crew Training Facilities"
+sm_spaceport_military_1_desc: "§LAdvanced starship crew training faciltiies enable enhanced performance of ships weapons systems produced at this Spaceport.§!"
+
+sm_spaceport_military_2: "Military Officer Academy"
+sm_spaceport_military_2_desc: "§LEnhanced Officer training programs have allowed larger overall fleet sizes and more spatially aware officers.§!"
+
+sm_spaceport_military_3: "Station Security Forces"
+sm_spaceport_military_3_desc: "§LHousing an Elite Defense Force strictly for protecting this Spaceport, all weapons systems are on stand-by and operate at increased efficiency.§!"
+
+sm_spaceport_military_4: "Orbital Recruitment Offices"
+sm_spaceport_military_4_desc: "§LOrbital recruiting Officers stationed at the Spaceport's main promenade offer increased army recuritment for it's mother planet.§!"
+
+#Science Modules
+sm_spaceport_science_lab_1: "Engineering Corps"
+sm_spaceport_science_lab_2: "Civic Engagement Council"
+sm_spaceport_science_lab_3: "Large Hadron Collider"
+sm_spaceport_science_lab_4: "Robot Manufacturing Lab"
+sm_spaceport_science_lab_5: "Gene-Splicing Lab"
+

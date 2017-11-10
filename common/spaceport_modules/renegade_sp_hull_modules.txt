@@ -1,0 +1,78 @@
+##############################################/
+# Renegade's Spaceports Expanded ############/
+############################################/
+
+#Version 1.1
+#TheRenegade 09/27/17
+
+#################### Hull Modules ####################
+
+#sm_rse_module_hull_1:0 "Bulkhead Reinforcment" 
+rse_module_hull_1 = {
+	icon = "GFX_spaceport_module_reinforced_hull_layers_1"
+	section = "RSE_SCIENCE_SPACEPORT_SECTION"
+	construction_days = 180	
+	prerequisites = { "tech_reinforced_hull_1" }
+	spaceport_level = 2
+	
+	cost = {
+		minerals = 400
+	}
+	
+	
+	station_modifier = {
+		ship_hitpoints_add = 1500
+	}
+	ai_weight = { 
+		weight = 15 #Hitpoints are a great thing
+	}
+}
+
+#sm_rse_module_hull_2:0 "Neutronium Skin" 
+rse_module_hull_2 = {
+	icon = "GFX_spaceport_module_reinforced_hull_layers_2"
+	section = "RSE_SCIENCE_SPACEPORT_SECTION"
+	construction_days = 360	
+	prerequisites = { "tech_reinforced_hull_2" }
+	spaceport_level = 5
+	
+	cost = {
+		minerals = 600
+	}
+	required_resources = {
+		energy = 1
+	}	
+	station_modifier = {
+		ship_hitpoints_add = 1000
+		ship_auto_repair_add = 0.025
+	}
+		ai_weight = { 
+		weight = 10 #Hitpoints are a great thing
+	}
+}
+
+#sm_rse_module_hull_3:0 "Living Metal Construction" 
+rse_module_hull_3 = {
+	icon = "GFX_spaceport_module_reinforced_hull_layers_3"
+	section = "RSE_SCIENCE_SPACEPORT_SECTION"
+	construction_days = 720	
+	prerequisites = { "tech_reinforced_hull_3" }
+	spaceport_level = 6
+	
+	cost = {
+		minerals = 800
+	}
+	required_resources = {
+		energy = 2
+		minerals = 2
+	}
+	station_modifier = {
+		ship_auto_repair_add = 0.05
+	}
+		ai_weight = { 
+		weight = 3 #Hitpoints are a great thing
+	}
+}
+
+#TODO
+#sm_hive_hull:0 "Organic Exoskeleton"

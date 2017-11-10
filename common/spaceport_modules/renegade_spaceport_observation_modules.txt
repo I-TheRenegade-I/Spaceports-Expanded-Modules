@@ -1,0 +1,164 @@
+##############################################/
+# Renegade's Spaceports Expanded ############/
+############################################/
+
+#Version 1.1
+#TheRenegade 10/05/17
+
+
+#################### Observation and Listening Posts ####################
+
+#sm_observatory_2:0 "Astrometrics Lab"
+observatory_2 = {
+	icon = "GFX_spaceport_module_observatory_2"
+	section = "SCIENCE_SPACEPORT_SECTION"
+	construction_days = 360
+	prerequisites = { "tech_orbital_sensor_array_2" }
+	spaceport_level = 5
+	
+	cost = {
+		minerals = 400
+	}
+	
+	required_resources = {
+		energy = 3
+	}
+	
+	planet_modifier = {
+		planet_sensor_range_mult = 0.75	
+		tile_resource_physics_research_mult = 0.15
+		tile_resource_society_research_mult = 0.15
+		tile_resource_engineering_research_mult = 0.15
+		
+	}
+	
+	ship_modifier = {
+		ship_sensor_range_mult = 0.25
+	}
+}
+
+#sm_observatory_3:0 "Relativity Array"
+observatory_3 = {
+	icon = "GFX_spaceport_module_observatory_3"
+	section = "SCIENCE_SPACEPORT_SECTION"
+	construction_days = 720
+	prerequisites = { "tech_orbital_sensor_array_3" }
+	spaceport_level = 10
+	
+	cost = {
+		minerals = 800
+		energy = 200
+	}
+	
+	required_resources = {
+		energy = 6
+	}
+	
+	planet_modifier = {
+		planet_sensor_range_mult = 1.0	
+		tile_resource_physics_research_mult = 0.20
+		tile_resource_society_research_mult = 0.20
+		tile_resource_engineering_research_mult = 0.20
+		
+	}
+	
+	ship_modifier = {
+		ship_sensor_range_mult = 0.35
+	}
+}
+
+# sm_listening_post_1:0 "Listening Post MK I"
+listening_post_1 = {
+	icon = "GFX_spaceport_module_listening_post_1"
+	section = "RSE_SCIENCE_SPACEPORT_SECTION"
+	construction_days = 180
+	prerequisites = { "tech_listening_post_1" }
+	spaceport_level = 3
+	
+	cost = {
+		minerals = 250
+		energy = 500
+	}
+
+	required_resources = {
+		energy = 4
+	}
+
+	planet_modifier = {
+		planet_border_mult = 0.25
+		planet_sensor_range_mult = 0.75
+	}
+	
+	ai_weight = {
+		weight = 5
+		modifier = {
+			factor = 0		
+			from = { has_free_spaceport_module_slot = no }
+		}
+		modifier = {
+			factor = 1.6
+			OR = {
+				is_at_war = yes
+				is_war_leader = yes
+			}
+		}
+		modifier = {
+			factor = 1.4
+			any_neighbor_country = {
+				is_country_type = default
+				OR = {
+					is_hostile_to = prev
+					is_domineering_to = prev
+				}
+			}
+		}
+	}
+}
+
+# sm_listening_post_2:0 "Listening Post MK II"	
+listening_post_2 = {
+	icon = "GFX_spaceport_module_listening_post_2"
+	section = "RSE_SCIENCE_SPACEPORT_SECTION"
+	construction_days = 360
+	prerequisites = { "tech_listening_post_2" }
+	spaceport_level = 5
+	
+	cost = {
+		minerals = 400
+		energy = 800
+	}
+
+	required_resources = {
+		energy = 6
+	}
+
+	planet_modifier = {
+		planet_border_mult = 0.5
+		planet_sensor_range_mult = 1.25
+	}
+	
+	ai_weight = {
+		weight = 5
+		modifier = {
+			factor = 0		
+			from = { has_free_spaceport_module_slot = no }
+		}
+		modifier = {
+			factor = 1.6
+			OR = {
+				is_at_war = yes
+				is_war_leader = yes
+			}
+		}
+		modifier = {
+			factor = 1.4
+			any_neighbor_country = {
+				is_country_type = default
+				OR = {
+					is_hostile_to = prev
+					is_domineering_to = prev
+				}
+			}
+		}
+	}
+}

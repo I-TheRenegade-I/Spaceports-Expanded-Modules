@@ -1,0 +1,209 @@
+﻿#l_braz_por:
+#l_english:
+#l_french:
+l_german:
+#l_polish:
+#l_russian:
+#l_spanish:
+
+##############################################/
+# Renegade's Spaceports Expanded ############/
+############################################/
+
+#########################################/
+# Spaceport Modules ####################/
+#######################################/
+
+#Version 2.0
+#TheRenegade 10/04/17
+#Translator: SonOfTheStars(SotS) 2017/10/11
+
+#Shield Modules
+sm_rse_spaceport_shield_1: "Schildmodul Mk.I"
+sm_rse_spaceport_shield_1_desc: "§WRaumhafeneffekt\n Schildpunkte: §!§G2500§!\n§W Schildregeneration: §!§G15§!"
+
+sm_rse_spaceport_shield_2: "Schildmodul Mk.II Upgrade"
+sm_rse_spaceport_shield_2_desc: "§RSetzt voraus:§! §YSchildmodul Mk.I§!\n §WRaumhafeneffekt\n §!§WSchildpunkte: §!§G+200%§!\n§W Schildregeneration: §!§G45§!§ \n§W Schildregen. Multiplikator: §!§G+100%§!"
+
+sm_rse_spaceport_shield_3: "Schildmodul Mk.III Upgrade"
+sm_rse_spaceport_shield_3_desc: "§RSetzt voraus:§! §YSCHILDMODUL MK.II UPGRADE§!\n §WRaumhafeneffekt\n §!§WSchildpunkte: §!§G+500%§!\n§W Schildregeneration: §!§G50§!§ \n§W Schildregen. Multiplikator: §!§G+250%§!"
+
+#Hull Modules
+sm_rse_module_hull_1: "Verstärkte Spundwände"
+
+sm_rse_module_hull_2: "Neutroniumbeschichtung"
+sm_rse_module_hull_2_desc: "§RSetzt voraus:§! §YVERSTÄRKTE SPUNDWÄNDE§!\n !§LDurch diese Neutroniumbeschichtung repariert sich der Raumhafen langsam selbst§! \n§W Monatliche Hüllenregeneration: §!§G2.5%§!§"
+
+sm_rse_module_hull_3: "Organometallische Außenhülle"
+sm_rse_module_hull_3_desc: "§RSetzt voraus:§! §YNEUTRONIUMBESCHICHTUNG§!\n §LEine aus organischem Metall gefertigte Außenhülle regeneriert sich autonom und sehr schnell§! \n§W Monatliche Hüllenregeneration: §!§G5%§"
+
+#Armor Modules
+sm_rse_module_armor_1: "Verstärkte Bunkertüren"
+
+sm_rse_module_armor_2: "Neutroniumlegierung Upgrade"
+sm_rse_module_armor_2_desc: "§RSetzt voraus:§! §YVERSTÄRKTE BUNKERTÜREN§!\n §LExtrem dichte Neutroniumlegierungen sorgen dafür dass der Raumhafen um einiges mehr einstecken kann§!"
+
+sm_rse_module_armor_3: "Ablative Panzerung Upgrade"
+sm_rse_module_armor_3_desc: "§RSetzt voraus:§! §YNEUTRONIUMLEGIERUNG UPGRADE§!\n §LDurch Einführung von aktiver Panzerung die auf eingehenden Schaden reagiert lässt sich noch mehr davon direkt mitigieren§!"
+
+
+#Weapon Modules
+sm_synchronized_defenses_2: "Semiautonome Verteidigung"
+sm_synchronized_defenses_2_desc: "§RSetzt voraus:§! §YSYNCHRONISIERTE VERTEIDIGUNG§!\n §LFortschrittliche Assistenzsysteme erhohen die Kampfeffizienz der Defensivbesatzung§!"
+
+sm_synchronized_defenses_3: "Autonome Verteidigung"
+sm_synchronized_defenses_3_desc: "§RSetzt voraus:§! §YSEMIAUTONOME VERTEIDIGUNG§!\n §LVollständig Computergesteuerte Waffen- und Zielsysteme erhöhen die Effizienz der Defensivsysteme noch weiter§!"
+
+sm_synchronized_defenses_4: "KI-Defensivmatrix"
+sm_synchronized_defenses_4_desc: "§RSetzt voraus:§! §YSEMIAUTONOME VERTEIDIGUNG§!\n §LLässt eine eigens konzipierte KI die Defensivsysteme übernehmen, für maximale Effizienz.§!"
+
+sm_rse_module_hangar_1: "Stationäre Jägerschwadrone"
+sm_rse_module_hangar_1_desc: "§LStationiert Elite-Jägerschwadrone auf dem Raumhafen, zur Verteidigung gegen Raketen- und Bomberangriffe§!\n §WRaumhafeneffekt\n Jägerschwadrone: §!§G3§!§W\n Bomberschwadrone: §!§G1§!"
+
+sm_rse_module_hangar_2: "Stationäre Bomberschwadrone"
+sm_rse_module_hangar_2_desc: "§LStationiert Elite-Bomberschwadrone auf dem Raumhafen, zur direkten Verteidigung gegen Feindschiffe§!\n §WRaumhafeneffekt\n Bomberschwadrone: §!§G3§!§W\n Jägerschwadrone: §!§G1§!"
+
+rse_HANGAR: "Militärhangar"
+rse_HANGAR_BOMBER: "Stationärer Bomber"
+rse_HANGAR_FIGHTER: "Stationärer Jäger"
+
+sm_rse_module_weapon_k1: "Gaußgeschütz Batterie Mk.I"
+sm_rse_module_weapon_k1_desc: "§YEine Batterie §Rkleiner§! Geschütze für den Raumhafen§!\n §WRaumhafeneffekt\n Kleine Lafetten: §!§G3§!§W\n Mittlere Lafetten: §!§G2§!§W\n Große Lafetten: §!§G1§!§W\n Installierte Geschütze: §!§GGaußgeschütz§!"
+
+sm_rse_module_weapon_k2: "Gaußgeschütz Batterie Mk.II"
+sm_rse_module_weapon_k2_desc: "§YEine Batterie §Rmittlerer§! Geschütze für den Raumhafen§!\n §WRaumhafeneffekt\n Kleine Lafetten: §!§G2§!§W\n Mittlere Lafetten: §!§G4§!§W\n Große Lafetten: §!§G2§!§W\n Installierte Geschütze: §!§GGaußgeschütz§!"
+
+sm_rse_module_weapon_k3: "Gaußgeschütz Batterie Mk.III"
+sm_rse_module_weapon_k3_desc: "§YEine Batterie§Rgroßer§! Geschütze für den Raumhafen§!\n §WRaumhafeneffekt\n Kleine Lafetten: §!§G1§!§W\n Mittlere Lafetten: §!§G1§!§W\n Große Lafetten: §!§G5§!§W\n Installierte Geschütze: §!§GGaußgeschütz§!"
+
+sm_rse_module_weapon_k4: "Gaußgeschütz Batterie MK.IV"
+sm_rse_module_weapon_k4_desc: "§YEine Batterie §RMassebeschleuniger§! für den Raumhafen§!\n §WRaumhafeneffekt\n Massebeschleuniger: §!§G2§!§W\n Installierte Geschütze: §!§GGigakanone§!"
+
+sm_rse_module_weapon_l1: "Laser Batterie Mk.I"
+sm_rse_module_weapon_l1_desc: "§YEine Batterie §Rkleiner§! Waffen für den Raumhafen§!\n §WRaumhafeneffekt\n Kleine Lafetten: §!§G3§!§W\n Mittlere Lafetten: §!§G4§!§W\n Große Lafetten: §!§G1§!§W\n Installierte Geschütze: §!§GGammalaser§!"
+
+sm_rse_module_weapon_l2: "Laser Batterie Mk.II"
+sm_rse_module_weapon_l2_desc: "§YEine Batterie §Rmittlerer§! Laser für den Raumhafen§!\n §WRaumhafeneffekt\n Kleine Lafetten: §!§G2§!§W\n Mittlere Lafetten: §!§G3§!§W\n Große Lafetten: §!§G2§!§W\n Installierte Geschütze: §!§GGammalaser§!"
+
+sm_rse_module_weapon_l3: "Laser Batterie Mk.III"
+sm_rse_module_weapon_l3_desc: "§YEine Batterie §Rgroßer§! Laser für den Raumhafen§!\n §WRaumhafeneffekt\n Kleine Lafetten: §!§G1§!§W\n Mittlere Lafetten: §!§G1§!§W\n Große Lafetten: §!§G5§!§W\n Installierte Geschütze: §!§GGammalaser§!"
+
+sm_rse_module_weapon_l4: "Laser Batterie Mk.IV"
+sm_rse_module_weapon_l4_desc: "§YEine Batterie §RPartikelemitter§! für den Raumhafen§!\n §WRaumhafeneffekt\n Partikelemitter: §!§G2§!§W\n Installierte Geschütze: §!§GTachyonlanze§!"
+
+sm_rse_module_weapon_m1: "Raketenplatform Mk.I"
+sm_rse_module_weapon_m1_desc: "§YEine Abschussplattform für §Rkleine§! Raketen auf dem Raumhafen§!\n §WRaumhafeneffekt\n Kleine Lafetten: §!§G3§!§W\n Mittlere Lafetten: §!§G2§!§W\n Große Lafetten: §!§G1§!§W\n Installierte Geschütze: §!§GMarauder Raketen§!"
+
+sm_rse_module_weapon_m2: "Raketenplatform Mk.II"
+sm_rse_module_weapon_m2_desc: "§YEine Abschussplattform für §Rmittlere§! Raketen auf dem Raumhafen§!\n §WRaumhafeneffekt\n Kleine Lafetten: §!§G2§!§W\n Mittlere Lafetten: §!§G4§!§W\n Große Lafetten: §!§G2§!§W\n Installierte Geschütze: §!§GMarauder Raketen§!"
+
+sm_rse_module_weapon_m3: "Raketenplatform Mk.III"
+sm_rse_module_weapon_m3_desc: "§YEine Abschussplattform für §Rgroße§! Raketen auf dem Raumhafen§!\n §WRaumhafeneffekt\n Kleine Lafetten: §!§G1§!§W\n Mittlere Lafetten: §!§G1§!§W\n Große Lafetten: §!§G5§!§W\n Installierte Geschütze: §!§GMarauder Raketen§!"
+
+sm_rse_module_weapon_m4: "Raketenplatform Mk.IV"
+sm_rse_module_weapon_m4_desc: "§YEine Batterie §RTorpedorohre§! für den Raumhafen§!\n §WRaumhafeneffekt\n Torpedorohre: §!§G2§!§W\n Installierte Geschütze: §!§GZerstörertorpedos§!"
+
+sm_rse_module_weapon_xl_1: "Fokussierte Lichtbogenemitter"
+sm_rse_module_weapon_xl_1_desc: "§YEine Batterie §RLichtbogenemitter§! für den Raumhafen§!\n §WRaumhafeneffekt\n Emitterspulen: §!§G2§!§W\n Installierte Geschütze: §!§GFokussierter Lichtbogenemitter§!"
+
+sm_rse_module_weapon_xl_2: "Neutronenbeschleuniger"
+sm_rse_module_weapon_xl_2_desc: "§YEine Batterie §RTorpedorohre§! für den Raumhafen§!\n §WRaumhafeneffekt\n Torpedorohre: §!§G2§!§W\n Installierte Geschütze: §!§GNeutronentorpedos§!"
+
+
+#Energy Modules
+sm_solar_panel_network2: "Solarzellen Mk.II"
+sm_solar_panel_network3: "Solarzellen Mk.III"
+sm_solar_panel_network4: "Solarzellen Mk.IV"
+sm_solar_panel_network5: "Planetares Energienetz"
+solar_panel_network6: "Raumhafen Antimateriereaktor"
+solar_panel_network7: "Raumhafen Nullpunktreaktor"
+
+#Mineral Modules
+sm_material_factory_1: "Nanitenfabrik"
+sm_material_factory_2: "Asteroiden Abbaubasis"
+sm_material_factory_3: "Mondressourcen Abbaubasis"
+sm_material_factory_4: "Energie-Masse Konverter"
+sm_material_factory_5: "Bergbaugilden"
+
+#Food Modules
+sm_hydroponic_farms_2: "Vertikale Gemüsefarm"
+sm_hydroponic_farms_3: "Soylent Green Fabrik"
+sm_hydroponic_farms_4: "Nahrungsreplikator"
+
+#Ship Assembly Modules
+sm_ship_assembly_yards_1: "Automatische Werft Mk.I"
+sm_ship_assembly_yards_2: "Automatische Werft Mk.II"
+sm_ship_assembly_yards_3: "Automatische Werft Mk.III"
+
+sm_ship_assembly_yards_5: "Kleinkampfschiff Werft"
+sm_ship_assembly_yards_5_desc: "§LAuf kleine Schiffe ausgelegte Werften erlauben eine effizientere Herstellung selbiger§!\n §RNSC-ABHÄNGIG§!"
+
+sm_ship_assembly_yards_6: "Großkampfschiff Werft"
+sm_ship_assembly_yards_6_desc: "§LAuf Großkampfschiffe ausgelegte Werften erlauben eine effizientere Herstellung selbiger§!\n §RNSC-ABHÄNGIG§!"
+
+sm_ship_assembly_yards_7: "Super-Großkampfschiff Werft"
+sm_ship_assembly_yards_7_desc: "§LAuf Super-großkampfschiffe ausgelegte Werften erlauben eine effizientere Herstellung selbiger§!\n §RNSC-ABHÄNGIG§!"
+
+sm_engineering_bay_2: "Robotisierte Montagehalle"
+sm_psionic_engineering_academy: "Psi-Ingenieursakademie"
+
+#Media and Propaganda Modules
+sm_ministry_of_war_1: "Krigsministerium Radiosender"
+sm_ministry_of_war_1_desc: "Lässt uns Pro-Regierungs und Pro-Kriegs Radioprogramme senden."
+
+sm_ministry_of_war_2: "Kriegsministerium Fernsehsender"
+sm_ministry_of_war_2_desc: "Lässt uns Pro-Regierungs und Pro-Kriegs Fernsehprogramme senden."
+
+sm_state_media_news_1: "Staatliches Radio"
+sm_state_media_news_1_desc: "Lässt uns staatlich geprüfte Radioprogramme über einen ganzen Planeten ausstrahlen."
+
+sm_state_media_news_2: "Staatliches Fernsehn"
+sm_state_media_news_2_desc: "Lässt uns staatlich geprfüfte Fernsehprogramme über einen ganzen Planeten ausstrahlen."
+
+sm_private_news_radio_1: "Privater Radiosender"
+sm_private_news_radio_1_desc: "Erlaubt die Einrichtung privater Radiosender auf dem Raumhafen."
+
+sm_private_news_radio_2: "Gewerkschatfts Radio"
+sm_private_news_radio_2_desc: "Erlaubt Gesellschaften Radiosender auf dem Raumhafen einzurichten."
+
+sm_psionic_mood_array: "Orbitaler Psi-Gefühlsmodulator"
+sm_psionic_mood_array_desc: "Lässt uns die Gefühle unser Bewohner psionisch kontrollieren...AUS DEM ALL!!!"
+
+sm_ministry_of_propaganda_1: "Propaganda Zentrale"
+sm_ministry_of_propaganda_1_desc: "Dient als Basis für Agenten, welche öffentlich Propagandamaterial verteilen."
+
+sm_ministry_of_propaganda_2: "Staatspolizei"
+sm_ministry_of_propaganda_2_desc: "Erlaubt uns das Einrichten einer Staatspolizei, mit Zwang zum Glück!."
+
+
+#Observation and Listening Posts
+sm_listening_post_1: "Horchposten Mk.I"
+sm_listening_post_1_desc: "§LBessere Teleskope erlauben as uns tiefer als bisher in die Galaxie zu blicken§!"
+
+sm_listening_post_2: "Horchposten Mk.II"
+sm_listening_post_2_desc: "§LKI-Verbesserungen und Raumresonanzmesser ermöglichen den Bau des ultimativen Frühwarnsystems§!"
+
+sm_observatory_2: "Astronomielabor"
+sm_observatory_3: "Relativitätsprozessor"
+sm_hive_mind_network: "Orbitaler Schwarmsignal Verstärker"
+
+#Army Modules
+sm_spaceport_military_1: "Besatzungs Trainingslager"
+sm_spaceport_military_1_desc: "§LHightech Kampfschiffe benötigen Besatzungen mit bester Ausbildung und top Kondition, für mehr Effizienz im Kampf§!"
+
+sm_spaceport_military_2: "Offiziersakademie"
+sm_spaceport_military_2_desc: "§LBesser ausgebildete Offiziere können größere Flotten handhaben und sind situationsbewusster als zuvor§!"
+
+sm_spaceport_military_3: "Stationäre Sicherheitstrupps"
+sm_spaceport_military_3_desc: "§LMaximale Alarmbereitschaft druch eigens stationierte Elite Sicherheitskräfte, AUF GEFECHTSSTATION!§!"
+
+sm_spaceport_military_4: "Orbitales Rekrutierungsbüro"
+sm_spaceport_military_4_desc: "§LDank orbital stationierter Rekrutierungsbeauftragter kommt auch der faulste Bürger nicht am Militärdienst vorbei!§!"
+
+#Science Modules
+sm_spaceport_science_lab_1: "Ingenieurtrupps"
+sm_spaceport_science_lab_2: "Bürger-Rat"
+sm_spaceport_science_lab_3: "Großer Hadronenbeschleuniger"
+sm_spaceport_science_lab_4: "Roboterfabrik"
+sm_spaceport_science_lab_5: "Gen-Splicing Labor"
+

@@ -1,0 +1,227 @@
+##############################################/
+# Renegade's Spaceports Expanded ############/
+############################################/
+
+#Version 1.1
+#TheRenegade 09/27/17
+
+#################### Ship Assembly Modules ####################
+
+
+#sm_ship_assembly_yards_1:0 "Automated Shipyard"
+ship_assembly_yards_1 = {
+	icon = "GFX_spaceport_module_ship_assembly_yard"
+	section = "RSE_ASSEMBLYYARD_SPACEPORT_SECTION"
+	construction_days = 180
+	prerequisites = { "tech_doctrine_manufacturing_standards_1" }
+	spaceport_level = 3
+
+	cost = {
+		minerals = 400
+	}
+
+	required_resources = {
+		energy = 2
+	}
+
+	modifier = {
+
+		shipsize_corvette_construction_speed_mult = 0.05
+		shipsize_destroyer_construction_speed_mult = 0.05
+		shipsize_cruiser_construction_speed_mult = 0.05
+		shipsize_battleship_construction_speed_mult = 0.05
+		shipsize_corvette_build_cost_mult = -0.05
+		shipsize_destroyer_build_cost_mult = -0.05
+		shipsize_cruiser_build_cost_mult = -0.05
+		shipsize_battleship_build_cost_mult = -0.05
+	}
+
+	ship_modifier = {
+		ship_hitpoints_mult = 0.05
+	}
+}
+
+#sm_ship_assembly_yards_2:0 "Automated Shipyard MK II"
+ship_assembly_yards_2 = {
+	icon = "GFX_spaceport_module_ship_assembly_yard_2"
+	section = "RSE_ASSEMBLYYARD_SPACEPORT_SECTION"
+	construction_days = 360
+	prerequisites = { "tech_doctrine_manufacturing_standards_2" }
+	spaceport_level = 5
+
+	cost = {
+		minerals = 600
+	}
+
+	required_resources = {
+		energy = 3
+	}
+
+	modifier = {
+		shipsize_corvette_construction_speed_mult = 0.1
+		shipsize_destroyer_construction_speed_mult = 0.1
+		shipsize_cruiser_construction_speed_mult = 0.1
+		shipsize_battleship_construction_speed_mult = 0.1
+		shipsize_corvette_build_cost_mult = -0.1
+		shipsize_destroyer_build_cost_mult = -0.1
+		shipsize_cruiser_build_cost_mult = -0.1
+		shipsize_battleship_build_cost_mult = -0.1
+
+	}
+
+	ship_modifier = {
+		ship_hitpoints_mult = 0.1
+	}
+}
+
+#sm_ship_assembly_yards_3:0 "Automated Shipyard MK III"
+ship_assembly_yards_3 = {
+	icon = "GFX_spaceport_module_ship_assembly_yard_3"
+	section = "RSE_ASSEMBLYYARD_SPACEPORT_SECTION"
+	construction_days = 720
+	prerequisites = { "tech_doctrine_manufacturing_standards_3" }
+	spaceport_level = 8
+
+	cost = {
+		minerals = 800
+	}
+
+	required_resources = {
+		energy = 7
+	}
+
+	modifier = {
+		shipsize_corvette_construction_speed_mult = 0.20
+		shipsize_destroyer_construction_speed_mult = 0.20
+		shipsize_cruiser_construction_speed_mult = 0.20
+		shipsize_battleship_construction_speed_mult = 0.20
+		shipsize_corvette_build_cost_mult = -0.15
+		shipsize_destroyer_build_cost_mult = -0.15
+		shipsize_cruiser_build_cost_mult = -0.15
+		shipsize_battleship_build_cost_mult = -0.15
+
+	}
+
+	ship_modifier = {
+		ship_hitpoints_mult = 0.15
+	}
+}
+
+#sm_ship_assembly_yards_5:0 "Sub-Capital Class Ship Assembly Array"
+#ship_assembly_yards_5 = {
+#	icon = "GFX_spaceport_module_ship_assembly_yard_5"
+#	section = "RSE_ASSEMBLYYARD_SPACEPORT_SECTION"
+#	construction_days = 720
+#	prerequisites = { "tech_advanced_construction_techniques_strike_cruiser" "tech_advanced_construction_techniques_battlecruiser" }
+#	spaceport_level = 6
+#
+#	cost = {
+#		minerals = 800
+#	}
+#
+#	required_resources = {
+#		energy = 5
+#	}
+#
+#	modifier = {
+#		shipsize_Battlecruiser_construction_speed_mult = 0.15
+#		shipsize_StrikeCruiser_construction_speed_mult = 0.15
+#		shipsize_Battlecruiser_build_cost_mult = -0.15
+#		shipsize_StrikeCruiser_build_cost_mult = -0.15
+#	}
+#
+#	ship_modifier = {
+#		ship_hitpoints_mult = 0.10
+#	}
+#}
+#
+#sm_ship_assembly_yards_6:0 "Capital Class Ship Assembly Array"
+#ship_assembly_yards_6 = {
+#	icon = "GFX_spaceport_module_ship_assembly_yard_7"
+#	section = "RSE_ASSEMBLYYARD_SPACEPORT_SECTION"
+#	construction_days = 720
+#	prerequisites = { "tech_spaceport_5" "tech_battleship_yard_2" }
+#	spaceport_level = 9
+#
+#	cost = {
+#		minerals = 1000
+#	}
+#
+#	required_resources = {
+#		energy = 7
+#	}
+#
+#	modifier = {
+#		shipsize_LightCarrier_construction_speed_mult = 0.15
+#		shipsize_Carrier_construction_speed_mult = 0.15
+#		shipsize_Dreadnought_construction_speed_mult = 0.15
+#		shipsize_LightCarrier_build_cost_mult = -0.15
+#		shipsize_Carrier_build_cost_mult = -0.15
+#		shipsize_Dreadnought_build_cost_mult = -0.15
+#	}
+#
+#	ship_modifier = {
+#		ship_hitpoints_mult = 0.10
+#	}
+#}
+#
+#sm_ship_assembly_yards_7:0 "Super-Capital Class Ship Assembly Array"
+#ship_assembly_yards_7 = {
+#	icon = "GFX_spaceport_module_ship_assembly_yard_7"
+#	section = "RSE_ASSEMBLYYARD_SPACEPORT_SECTION"
+#	construction_days = 720
+#	prerequisites = { "tech_advanced_construction_techniques_light_carrier" "tech_advanced_construction_techniques_carrier" "tech_advanced_construction_techniques_dreadnought"  }
+#	spaceport_level = 12
+#
+#	cost = {
+#		minerals = 1250
+#	}
+#
+#	required_resources = {
+#		energy = 10
+#	}
+#
+#	modifier = {
+#		shipsize_Superdreadnought_construction_speed_mult = 0.15
+#		shipsize_Flagship_construction_speed_mult = 0.15
+#		shipsize_Superdreadnought_build_cost_mult = -0.15
+#		shipsize_Flagship_build_cost_mult = -0.15
+#	}
+#
+#	ship_modifier = {
+#		ship_hitpoints_mult = 0.10
+#	}
+#}
+#
+#
+#sm_engineering_bay_2:0 "Robotic Engineering Bay"
+engineering_bay_2 = {
+	icon = "GFX_spaceport_module_engineering_bay_2"
+	section = "RSE_HANGARBAY_SPACEPORT_SECTION"
+	construction_days = 270
+	prerequisites = { "tech_doctrine_manufacturing_standards_1" }
+	spaceport_level = 3
+
+	cost = {
+		minerals = 400
+	}
+
+	required_resources = {
+		energy = 3
+	}
+
+	orbit_modifier = {
+
+		#ship_reparation_cost_mult = -0.25
+		ship_reparation_speed_mult = 0.75
+	}
+
+	ship_modifier = {
+		ship_upkeep_mult = -0.15
+	}
+}
+
+
+
+
+

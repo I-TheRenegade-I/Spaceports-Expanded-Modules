@@ -1,0 +1,267 @@
+##############################################/
+# Renegade's Spaceports Expanded ############/
+############################################/
+
+#Version 1.1
+#TheRenegade 09/27/17
+
+#################### Media and Propaganda Modules ####################
+
+#sm_state_media_news_1:0 "State Media Radio Station"
+state_media_news_1 = {
+	icon = "GFX_spaceport_module_media_news_1"
+	section = "RSE_SCIENCE_SPACEPORT_SECTION"
+	construction_days = 360	
+	prerequisites = { "tech_media_1" }
+	spaceport_level = 3
+	
+	cost = {
+		minerals = 400
+	}
+	
+	required_resources = {
+		energy = 5
+	}
+
+	planet_modifier = {
+		planet_border_mult = 0.05
+		#pop_ethic_shift = -0.05
+		pop_happiness = -0.1
+		#pop_xenophobia = 0.1
+	}
+}
+
+#sm_state_media_news_2:0 "State Media Television Station"
+state_media_news_2 = {
+	icon = "GFX_spaceport_module_media_news_2"
+	section = "RSE_SCIENCE_SPACEPORT_SECTION"
+	construction_days = 720	
+	prerequisites = { "tech_media_2" }
+	spaceport_level = 6
+	
+	cost = {
+		minerals = 500
+		energy = 250
+	}
+	
+	required_resources = {
+		energy = 8
+	}
+	
+	planet_modifier = {
+		planet_border_mult = 0.2
+		pop_happiness = -0.2
+	}
+	ai_weight = { 
+		weight = 5
+		modifier = {
+			factor = 0		
+			from = { has_free_spaceport_module_slot = no }
+		}
+	}
+	
+}
+
+#sm_ministry_of_war_1:0 "Mininstry of War Radio Station"
+ministry_of_war_1 = {
+	icon = "GFX_spaceport_module_ministry_of_war_1"
+	section = "RSE_SCIENCE_SPACEPORT_SECTION"
+	construction_days = 360	
+	prerequisites = { "tech_rse_army_1" }
+	spaceport_level = 3
+	
+	cost = {
+		minerals = 400
+	}
+	
+	required_resources = {
+		energy = 4
+	}
+
+	planet_modifier = {
+		planet_unrest_add = -5
+		planet_migration_xeno_pull = -0.1
+	}
+	ai_weight = { 
+		weight = 5
+		modifier = {
+			factor = 0		
+			from = { has_free_spaceport_module_slot = no }
+		}
+	}
+}
+
+#sm_ministry_of_war_2:0 "Mininstry of War Television Station"
+ministry_of_war_2 = {
+	icon = "GFX_spaceport_module_ministry_of_war_2"
+	section = "RSE_SCIENCE_SPACEPORT_SECTION"
+	construction_days = 720	
+	prerequisites = { "tech_rse_army_4" }
+	spaceport_level = 6
+	
+	cost = {
+		minerals = 500
+		energy = 250
+	}
+	
+	required_resources = {
+		energy = 5
+	}
+	
+	
+	planet_modifier = {
+		planet_unrest_add = -10
+		planet_migration_xeno_pull = -0.2
+	}
+	ai_weight = { 
+		weight = 5
+		modifier = {
+			factor = 0		
+			from = { has_free_spaceport_module_slot = no }
+		}
+	}
+}
+
+## Make tech to lock these to Spirtulists\Authortarians and similar ethics
+#sm_ministry_of_propaganda_1:0 "Propganda Pamplets"
+ministry_of_propaganda_1 = {
+	icon = "GFX_spaceport_module_ministry_of_war_2"
+	section = "RSE_SCIENCE_SPACEPORT_SECTION"
+	construction_days = 720	
+	prerequisites = { "tech_media_1" }
+	spaceport_level = 6
+	
+	cost = {
+		minerals = 500
+		energy = 250
+	}
+	
+	required_resources = {
+		energy = 5
+	}
+	
+	planet_modifier = {
+		planet_unrest_add = -10
+		planet_migration_xeno_pull = -0.2
+		pop_happiness = 0.1
+	}
+}
+
+
+#sm_ministry_of_propaganda_2:0 "State Police"
+ministry_of_propaganda_2 = {
+	icon = "GFX_spaceport_module_ministry_of_war_2" 
+	section = "RSE_SCIENCE_SPACEPORT_SECTION"
+	construction_days = 720	
+	prerequisites = { "tech_rse_army_3" }
+	spaceport_level = 6
+	
+	cost = {
+		minerals = 750
+		energy = 250
+	}
+	
+	required_resources = {
+		energy = 15
+		influence = 1
+	}
+	
+	planet_modifier = {
+		planet_unrest_add = -50
+		planet_migration_xeno_pull = -0.6
+		pop_happiness = 0.3
+	}
+}
+
+#sm_private_news_radio_1:0 "Private Radio Station"
+private_news_radio_1 = {
+	icon = "GFX_spaceport_module_private_news_radio_1"
+	section = "RSE_SCIENCE_SPACEPORT_SECTION"
+	construction_days = 360	
+	prerequisites = { "tech_media_1" }
+	spaceport_level = 3
+	
+	cost = {
+		minerals = 250
+	}
+	
+	required_resources = {
+		energy = 2
+	}
+
+	planet_modifier = {
+		pop_happiness = 0.15
+	}
+}
+
+#sm_private_news_radio_2:0 "Syndicated Radio Station"
+private_news_radio_2 = {
+	icon = "GFX_spaceport_module_private_news_radio_2"
+	section = "RSE_SCIENCE_SPACEPORT_SECTION"
+	construction_days = 720	
+	prerequisites = { "tech_media_2" }
+	spaceport_level = 6
+	
+	cost = {
+		minerals = 250
+		energy = 100
+	}
+	
+	required_resources = {
+		energy = 3
+	}
+	
+	planet_modifier = {
+		pop_happiness = 0.30
+	}
+}
+
+#sm_psionic_mood_array:0 "Orbital Telepathic Mood Array"
+psionic_mood_array = {
+	icon = "GFX_spaceport_module_psionic_mood_array"
+	section = "RSE_SCIENCE_SPACEPORT_SECTION"
+	construction_days = 720	
+	prerequisites = { "tech_media_psionic" }
+	spaceport_level = 6
+	
+	cost = {
+		minerals = 450
+		energy = 150
+	}
+	
+	required_resources = {
+		energy = 5
+	}
+	
+	planet_modifier = {
+		pop_happiness = 0.5
+	}
+}
+
+## Move into special files for Hive minds, or ones with cybernetics researched.
+##sm_hive_mind_network:0 "Orbital Hive Vibration Array"
+#hive_mind_network = {
+#	icon = "GFX_spaceport_module_hive_mind_network"
+#	section = "RSE_SCIENCE_SPACEPORT_SECTION"
+#	construction_days = 720	
+#	prerequisites = { "tech_media_hive" }
+#	spaceport_level = 6
+#	
+#	cost = {
+#		minerals = 250
+#		energy = 100
+#	}
+#	
+#	required_resources = {
+#		energy = 3
+#	}
+#	
+#	planet_modifier = {
+#		planet_border_mult = 0.15
+#	}
+#}
+
+
+#TODO
+#sm_ai_physics_lab:0 "AI Networked Institute"
+

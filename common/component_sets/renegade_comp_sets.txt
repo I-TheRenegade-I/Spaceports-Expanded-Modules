@@ -1,0 +1,72 @@
+##############################################/
+# Renegade's Spaceports Expanded ############/
+############################################/
+
+#Version 2.0
+#TheRenegade 09/25/17
+
+## For future use??
+#component_set = {
+#	key = "RSE_DEF_A1"
+#	icon = "GFX_ship_part_armor_1"
+#	icon_frame = 1
+#
+#}
+#
+#component_set = {
+#	key = "RSE_DEF_A2"
+#	icon = "GFX_ship_part_armor_2"
+#	icon_frame = 1
+#}
+#
+#component_set = {
+#	key = "RSE_DEF_A3"
+#	icon = "GFX_ship_part_armor_3"
+#	icon_frame = 1
+#}
+
+component_set = {
+	key = "RSE_SHIELD1"
+	icon = "GFX_ship_part_shield_1"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "RSE_SHIELD2"
+	icon = "GFX_ship_part_shield_2"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "RSE_SHIELD3"
+	icon = "GFX_ship_part_shield_3"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "RSE_DEF_FAN_2"
+	icon = "GFX_ship_part_armor_5"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "RSE_HANGAR"
+	icon = "GFX_ship_part_sensor"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "RENEGADE_ENERGY_LANCE"
+	icon = "GFX_ship_part_sensor"
+	icon_frame = 1
+}
+component_set = {
+	key = "RENEGADE_ARC_EMITTER"
+	icon = "GFX_ship_part_sensor"
+	icon_frame = 1
+}
+component_set = {
+	key = "RENEGADE_MASS_ACCELERATOR"
+	icon = "GFX_ship_part_sensor"
+	icon_frame = 1
+}
