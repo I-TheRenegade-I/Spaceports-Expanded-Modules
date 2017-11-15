@@ -1,0 +1,147 @@
+##############################################/
+# Renegade's Spaceports Expanded ############/
+############################################/
+
+#Version 1.1
+#TheRenegade 10/02/17
+
+#################### Starbase Defensive Modules ####################
+
+#################### Armor Modules ####################
+
+#rse_module_armor_1:0 "Reinforced Blast Doors"
+rse_module_armor_1 = {
+	icon = "GFX_ship_part_armor_1"
+	section = "RSE_SCIENCE_SPACEPORT_SECTION"
+	construction_days = 180	
+	prerequisites = { "tech_rse_starbase_reinforcement_1" }
+	spaceport_level = 2
+	
+	cost = {
+		minerals = 250
+	}
+	
+	station_modifier = {
+		ship_armor_add = 50
+	}
+	ai_weight = { 
+		weight = 15 #Hitpoints are a great thing
+	}
+}
+
+#rse_module_armor_2:0 "Titanium Alloy Upgrade Kit"
+rse_module_armor_2 = {
+	icon = "GFX_ship_part_armor_2"
+	section = "RSE_HANGARBAY_SPACEPORT_SECTION"
+	construction_days = 360	
+	prerequisites = { "tech_rse_starbase_reinforcement_2" }
+	spaceport_level = 3
+	
+	cost = {
+		minerals = 500
+	}
+		
+	station_modifier = {
+		ship_armor_add = 150
+		ship_hitpoints_mult = 0.3
+	}
+	ai_weight = { 
+		weight = 6 #Hitpoints are a great thing
+	}
+}
+
+#rse_module_armor_3:0 "Ablative Armor Upgrade Kit"
+rse_module_armor_3 = {
+	icon = "GFX_ship_part_armor_3"
+	section = "RSE_HANGARBAY_SPACEPORT_SECTION"
+	construction_days = 720	
+	prerequisites = { "tech_rse_starbase_reinforcement_3" }
+	spaceport_level = 6
+	
+	cost = {
+		minerals = 750
+	}
+	required_resources = {
+		energy = 3
+		minerals = 2
+	}	
+	station_modifier = {
+		ship_armor_add = 250
+		ship_hitpoints_mult = 0.7
+	}
+	ai_weight = { 
+		weight = 3 #Hitpoints are a great thing
+	}
+}
+
+
+#################### Hull Modules ####################
+
+#sm_rse_module_hull_1:0 "Bulkhead Reinforcment" 
+rse_module_hull_1 = {
+	icon = "GFX_spaceport_module_reinforced_hull_layers_1"
+	section = "RSE_SCIENCE_SPACEPORT_SECTION"
+	construction_days = 180	
+	prerequisites = { "tech_rse_starbase_reinforcement_1" }
+	spaceport_level = 2
+	
+	cost = {
+		minerals = 250
+	}
+	
+	
+	station_modifier = {
+		ship_hitpoints_add = 1500
+	}
+	ai_weight = { 
+		weight = 15 #Hitpoints are a great thing
+	}
+}
+
+#sm_rse_module_hull_2:0 "Neutronium Skin" 
+rse_module_hull_2 = {
+	icon = "GFX_spaceport_module_reinforced_hull_layers_2"
+	section = "RSE_SCIENCE_SPACEPORT_SECTION"
+	construction_days = 360	
+	prerequisites = { "tech_rse_starbase_reinforcement_2" }
+	spaceport_level = 5
+	
+	cost = {
+		minerals = 500
+	}
+	required_resources = {
+		energy = 1
+	}	
+	station_modifier = {
+		ship_hitpoints_add = 1000
+		ship_auto_repair_add = 0.025
+	}
+		ai_weight = { 
+		weight = 10 #Hitpoints are a great thing
+	}
+}
+
+#sm_rse_module_hull_3:0 "Living Metal Construction" 
+rse_module_hull_3 = {
+	icon = "GFX_spaceport_module_reinforced_hull_layers_3"
+	section = "RSE_SCIENCE_SPACEPORT_SECTION"
+	construction_days = 720	
+	prerequisites = { "tech_rse_starbase_reinforcement_3" }
+	spaceport_level = 6
+	
+	cost = {
+		minerals = 750
+	}
+	required_resources = {
+		energy = 2
+		minerals = 2
+	}
+	station_modifier = {
+		ship_hitpoints_mult = 0.3
+		ship_auto_repair_add = 0.15
+	}
+		ai_weight = { 
+		weight = 3 #Hitpoints are a great thing
+	}
+}
+

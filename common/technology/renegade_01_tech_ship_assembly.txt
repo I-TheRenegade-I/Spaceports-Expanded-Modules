@@ -58,13 +58,14 @@
 
 ######################## SHIP ASSEMBLY MODULES ########################
 
-#sm_ship_assembly_yards_1:0 "Automated Shipyard"
-tech_doctrine_manufacturing_standards_1 = {
+#sm_rse_ship_assembly_yards_1:0 "Semi-Automated Shipyard"
+#sm_rse_spaceport_military_4:0 "Orbital Recruitment Offices"
+tech_rse_ship_assembly_1 = {
 	cost = @tier2cost1
 	area = society
 	tier = 2
 	category = { military_theory }
-	prerequisites = { "tech_doctrine_refit_standards" }
+	prerequisites = { "tech_doctrine_refit_standards" "tech_centralized_command" "tech_spaceport_3"}
 	weight = @tier1weight3
 	
 	weight_modifier = {
@@ -104,13 +105,15 @@ tech_doctrine_manufacturing_standards_1 = {
 	}
 }
 
-#sm_ship_assembly_yards_2:0 "Automated Shipyard MK II"
-tech_doctrine_manufacturing_standards_2 = {
+#sm_rse_ship_assembly_yards_2:0 "Automated Shipyard"
+#sm_rse_spaceport_military_1:0 "Crew Training Facilities"
+#sm_rse_module_hangar_1:0 "Station Fighter Squadron"
+tech_rse_ship_assembly_2 = {
 	cost = @tier2cost2
 	area = society
 	tier = 2
 	category = { military_theory }
-	prerequisites = { "tech_doctrine_manufacturing_standards_1" }
+	prerequisites = { "tech_rse_ship_assembly_1" "tech_strike_craft_1"}
 	weight = @tier2weight2
 	
 	weight_modifier = {
@@ -150,14 +153,15 @@ tech_doctrine_manufacturing_standards_2 = {
 	}
 }
 
-#sm_ship_assembly_yards_3:0 "Automated Shipyard MK III"
-tech_doctrine_manufacturing_standards_3 = {
+#sm_rse_ship_assembly_yards_3:0 "Automated Shipyard MK III"
+#sm_rse_spaceport_military_3:0 "Station Security Forces"
+#sm_rse_module_hangar_2:0 "Station Bomber Squadron"
+tech_rse_ship_assembly_3 = {
 	cost = @tier3cost1
 	area = society
 	tier = 3
-	is_rare = yes
 	category = { military_theory }
-	prerequisites = { "tech_doctrine_manufacturing_standards_2" }
+	prerequisites = { "tech_rse_ship_assembly_2" "tech_strike_craft_2" }
 	weight = @tier3weight3
 	
 	weight_modifier = {
@@ -197,3 +201,49 @@ tech_doctrine_manufacturing_standards_3 = {
 	}
 }
 
+#sm_rse_ship_assembly_yards_4:0 "Automated Shipyard MK IV"
+#sm_rse_spaceport_military_4:0 "Military Officer Academy"
+tech_rse_ship_assembly_4 = {
+	cost = @tier3cost4
+	area = society
+	tier = 3
+	category = { military_theory }
+	prerequisites = { "tech_rse_ship_assembly_3" }
+	weight = @tier3weight3
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+}

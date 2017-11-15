@@ -1,0 +1,305 @@
+##############################################/
+# Renegade's Spaceports Expanded ############/
+############################################/
+
+#Version 1.1
+#TheRenegade 10/05/17
+
+#################### Resource Generation Modules ####################
+
+#################### Mineral Modules ####################
+
+#sm_material_factory_1:0 "Nano Factory"
+#inlcuded with solar panels vanilla tech
+#this is to match the energy given by vanilla solar panel spaceport module
+rse_material_factory_1 = {
+	icon = "GFX_material_factory_1"
+	section = "RSE_REFINERY_SPACEPORT_SECTION"
+	construction_days = 180
+	prerequisites = { "tech_solar_panel_network" }
+	spaceport_level = 3
+	
+	cost = {
+		energy = 75
+	}	
+	
+	produced_resources = {
+		minerals = 3
+	}
+	
+	required_resources = {
+		energy = 3
+	}
+	
+	ai_weight = { 
+		weight = 10
+	}
+}
+
+#sm_material_factory_2:0 "Asteroid Processing Plant"
+rse_material_factory_2 = {
+	icon = "GFX_material_factory_2"
+	section = "RSE_REFINERY_SPACEPORT_SECTION"
+	construction_days = 360
+	prerequisites = { "tech_rse_solar_panel_network_2" }
+	spaceport_level = 4
+	
+	cost = {
+		energy = 150
+	}	
+	
+	produced_resources = {
+		minerals = 6
+	}
+	
+	required_resources = {
+		energy = 6
+	}
+	
+	ai_weight = { 
+		weight = 10
+	}
+}
+
+#sm_material_factory_3:0 "Moon Strip Mining"
+rse_material_factory_3 = {
+	icon = "GFX_material_factory_3"
+	section = "RSE_REFINERY_SPACEPORT_SECTION"
+	construction_days = 720
+	prerequisites = { "tech_rse_solar_panel_network_3" }
+	spaceport_level = 5
+	
+	cost = {
+		energy = 300
+	}	
+	
+	produced_resources = {
+		minerals = 15
+	}
+	
+	required_resources = {
+		energy = 12
+	}
+	
+	ai_weight = { 
+		weight = 10
+	}
+}
+
+#sm_material_factory_4:0 "Energy to Matter Plant"
+rse_material_factory_4 = {
+	icon = "GFX_material_factory_4"
+	section = "RSE_REFINERY_SPACEPORT_SECTION"
+	construction_days = 1440
+	prerequisites = { "tech_rse_solar_panel_network_4" }
+	spaceport_level = 6
+	
+	cost = {
+		energy = 450
+	}	
+	
+	produced_resources = {
+		minerals = 22.5
+	}
+	
+	required_resources = {
+		energy = 18
+	}
+	
+	ai_weight = { 
+		weight = 10
+	}
+} 
+
+#sm_material_factory_5:0 "NEW ENERGY TO MATTER PLANT"
+rse_material_factory_5 = {
+	icon = "GFX_material_factory_5" 		
+	section = "RSE_REFINERY_SPACEPORT_SECTION"
+	construction_days = 720
+	prerequisites = { "tech_rse_solar_panel_network_5" }
+	spaceport_level = 10
+	
+	cost = {
+		energy = 600
+	}	
+	
+	produced_resources = {
+		minerals = 32
+	}
+	
+	required_resources = {
+		energy = 24
+	}
+
+	
+	
+	ai_weight = { 
+		weight = 10
+	}
+} 
+
+#sm_material_factory_6:0 "Mining Guilds"
+rse_material_factory_6 = {
+	icon = "GFX_mining_guilds" 		
+	section = "RSE_REFINERY_SPACEPORT_SECTION"
+	construction_days = 720
+	prerequisites = { "tech_rse_solar_panel_network_6" }
+	spaceport_level = 10
+	
+	cost = {
+		energy = 1000
+		minerals = 250
+		influence = 150
+	}	
+	
+	produced_resources = {
+		unity = 5
+	}
+	
+	planet_modifier = {
+		tile_resource_minerals_mult = 0.25
+	}
+	
+	ai_weight = { 
+		weight = 10
+	}
+} 
+
+#################### Energy Modules ####################
+ 
+#sm_rse_solar_panel_network2: "Spaceport Fission Power Plant"
+#vanilla solar panel is first level of energy generation. This is 2nd level
+rse_solar_panel_network2 = {
+	icon = "GFX_solar_panel_network_2"
+	section = "RSE_ASSEMBLYYARD_SPACEPORT_SECTION"
+	construction_days = 180
+	prerequisites = { "tech_rse_solar_panel_network_2" }
+	spaceport_level = 4
+	
+	cost = {
+		minerals = 150
+	}	
+	
+	produced_resources = {
+		energy = 6
+	}
+	
+	ai_weight = {
+		factor = 10
+	}
+}
+
+#sm_rse_solar_panel_network3: "Spaceport Fusion Power Plant"
+rse_solar_panel_network3 = {
+	icon = "GFX_solar_panel_network_3"
+	section = "RSE_ASSEMBLYYARD_SPACEPORT_SECTION"
+	construction_days = 360
+	prerequisites = { "tech_rse_solar_panel_network_3" }
+	spaceport_level = 5
+	
+	cost = {
+		minerals = 300
+	}	
+	
+	produced_resources = {
+		energy = 12
+	}
+	
+	ai_weight = {
+		factor = 10
+	}
+}
+
+#sm_rse_solar_panel_network4: "Spaceport Cold Fusion Power Plant"
+rse_solar_panel_network4 = {
+	icon = "GFX_solar_panel_network_4"
+	section = "RSE_ASSEMBLYYARD_SPACEPORT_SECTION"
+	construction_days = 360
+	prerequisites = { "tech_rse_solar_panel_network_4" }
+	spaceport_level = 6
+	
+	cost = {
+		minerals = 450
+	}	
+	
+	produced_resources = {
+		energy = 22.5
+	}
+	
+	ai_weight = {
+		factor = 10
+	}
+}
+
+
+#sm_solar_panel_network6:0 "Spaceport Anti-Matter Power Plant"
+rse_solar_panel_network6 = {
+	icon = "GFX_solar_panel_network_6"
+	section = "RSE_ASSEMBLYYARD_SPACEPORT_SECTION"
+	construction_days = 540
+	prerequisites = { "tech_rse_solar_panel_network_6" }
+	spaceport_level = 10
+	
+	cost = {
+		minerals = 600
+	}	
+	
+	produced_resources = {
+		energy = 30
+		
+	}
+
+	ai_weight = {
+		factor = 10
+	}
+}
+
+#sm_solar_panel_network7:0 "Spaceport Zero-Point Power Plant"
+rse_solar_panel_network7 = {
+	icon = "GFX_solar_panel_network_7"
+	section = "RSE_ASSEMBLYYARD_SPACEPORT_SECTION"
+	construction_days = 720
+	prerequisites = { "tech_rse_solar_panel_network_7" }
+	spaceport_level = 12
+	
+	cost = {
+		minerals = 900
+		influence = 75
+	}	
+	
+	produced_resources = {
+		energy = 60
+	}
+
+	ai_weight = {
+		factor = 10
+	}
+}
+
+
+#sm_solar_panel_network5:0 "Planetary Energy Grid"
+rse_solar_panel_network5 = {
+	icon = "GFX_planetary_electrical_grid"
+	section = "RSE_ASSEMBLYYARD_SPACEPORT_SECTION"
+	construction_days = 540
+	prerequisites = { "tech_rse_solar_panel_network_5" }
+	spaceport_level = 10
+	
+	cost = {
+		minerals = 1000
+		energy = 250
+		influence = 150
+	}	
+	
+	produced_resources = {
+		unity = 5
+	}
+	
+	planet_modifier = {
+		tile_resource_energy_mult = 0.25
+	}
+	
+	ai_weight = {
+		factor = 10
+	}
+}

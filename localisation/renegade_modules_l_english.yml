@@ -108,23 +108,26 @@ sm_rse_module_weapon_xl_1_desc: "§YA collection of §RExtra Large§! weapons fo
 sm_rse_module_weapon_xl_2: "Neutron Torpedo Battery"
 sm_rse_module_weapon_xl_2_desc: "§YA collection of §RExtra Large§! weapons for your Spaceport.§!\n§WSpaceport Modifier\nExtra Large Weapon Slots +§!§G2§!§W\nMounted Weaponry: §!§GNeutron Torpedoes§!"
 
+rse_module_spaceport_defense_network: "Spaceport Defense Matrix - Aegis Class"
+rse_module_spaceport_defense_network_desc: "The epitome of Spaceport Defense"
 
 #Energy Modules
-sm_solar_panel_network2: "Solar Panel MK II"
-sm_solar_panel_network3: "Solar Panel MK III"
-sm_solar_panel_network4: "Solar Panel MK IV"
-sm_solar_panel_network5: "Planetary Energy Grid"
-sm_solar_panel_network5_desc: "§LUsing high gain solar panels, we can collect pure solar radiation and beam the increased energy down to our planet below, boosting the efficency of it's power plants.§!\n§WPlanet Modifier§!\n§WEnergy Output §!§G+15%§!"
-sm_solar_panel_network6: "Spaceport Anti-Matter Power Plant"
-sm_solar_panel_network7: "Spaceport Zero-Point Power Plant"
+sm_rse_solar_panel_network2: "Spaceport Fission Power Plant"
+sm_rse_solar_panel_network3: "Spaceport Fusion Power Plant"
+sm_rse_solar_panel_network4: "Spaceport  Cold Fusion Power Plant"
+sm_rse_solar_panel_network5: "Planetary Energy Grid"
+sm_rse_solar_panel_network5_desc: "§LUsing high gain solar panels, we can collect pure solar radiation and beam the increased energy down to our planet below, boosting the efficency of it's power plants.§!\n§WPlanet Modifier§!\n§WEnergy Output §!§G+25%§!"
+sm_rse_solar_panel_network6: "Spaceport Antimatter Power Plant"
+sm_rse_solar_panel_network7: "Spaceport Zero-Point Power Plant"
 
 #Mineral Modules
-sm_material_factory_1: "Nano Factory"
-sm_material_factory_2: "Asteroid Processing Plant"
-sm_material_factory_3: "Moon Strip Mining"
-sm_material_factory_4: "Energy to Matter Plant"
-sm_material_factory_5: "Mining Guilds"
-sm_material_factory_5_desc: "§LProvides a meeting place for mienrs and their workers, sharing the newest information and technology.§!\n§WPlanet Modifier§!\n§WMineral Output §!§G+15%§!"
+sm_rse_material_factory_1: "Nano Factory" 
+sm_rse_material_factory_2: "Asteroid Processing Plant"
+sm_rse_material_factory_3: "Moon Strip Mining"
+sm_rse_material_factory_4: "Energy to Matter Plant"
+sm_rse_material_factory_5: "NEW ENERGY TO MATTER PLANT"
+sm_rse_material_factory_6: "Mining Guilds"
+sm_rse_material_factory_6_desc: "§LProvides a meeting place for mine owners and their employees, enabling the sharing of the newest information, techniques and technology.§!\n§WPlanet Modifier§!\n§WMineral Output §!§G+25%§!"
 
 #Food Modules
 sm_hydroponic_farms_2: "Stacked Vegetable Farm"
@@ -148,7 +151,7 @@ sm_ship_assembly_yards_7_desc: "§LAllows more efficent construction of Super-Ca
 sm_engineering_bay_2: "Robotic Engineering Bay"
 sm_psionic_engineering_academy: "Psionic Engineering Academy"
 
-#Media and Propaganda Modules
+#Media and Propaganda Modules - Tie multiples to same tech. Find simlarities
 sm_ministry_of_war_1: "Mininstry of War Radio Station"
 sm_ministry_of_war_1_desc: "§LEnables the ability to transmit pro-government and pro-war radio broadcasts.§!"
 
@@ -188,7 +191,7 @@ sm_observatory_2: "Astrometrics Lab"
 sm_observatory_3: "Relativity Array"
 sm_hive_mind_network: "Orbital Hive Vibration Array"
 
-#Army Modules
+#Army Modules - Tie into ship maintenance and construction tech. New names, etc.
 sm_spaceport_military_1: "Crew Training Facilities"
 sm_spaceport_military_1_desc: "§LAdvanced starship crew training faciltiies enable enhanced performance of ships weapons systems produced at this Spaceport.§!"
 

@@ -44,28 +44,31 @@
 
 @tier4weight1 = 30
 
-#TOTAL TECHS IN THE FILE - 4
-#
-#
-#
-#
-#
-#
-#
+#TOTAL TECHS IN THE FILE - 7
+#tech_rse_resource_generation_1
+#tech_rse_resource_generation_2
+#tech_rse_resource_generation_3
+#tech_rse_resource_generation_4
+#tech_rse_resource_generation_5
+#tech_rse_resource_generation_6
+#tech_rse_resource_generation_7
 #
 #
 #
 
-######################## ENERGY MODULES ########################
+######################## RESOURCE GENERATION TECH ########################
 
-#"Solar Panel MK II"
-tech_solar_panel_network_2 = {
+#sm_rse_solar_panel_network2: "Spaceport Fission Power Plant"
+#sm_material_factory_2:0 "Asteroid Processing Plant"
+#both first stage resource generation tied to vanilla solar panel tech
+#first new tech for both mineral and energy generation
+tech_rse_resource_generation_1 = {
 	cost = @tier2cost1
 	area = physics
-	tier = 3
+	tier = 2
 	#is_rare = yes
 	category = { industry }
-	prerequisites = { "tech_solar_panel_network" "tech_spaceport_3" }
+	prerequisites = { "tech_solar_panel_network" "tech_spaceport_3" "tech_fission_power"}
 	weight = @tier3weight3
 
 	
@@ -84,20 +87,22 @@ tech_solar_panel_network_2 = {
 	}
 	modifier = {
 		max_energy = 1000
+		max_minerals = 1000
 	}
 	ai_weight = {
 		factor = 10
 	}
 }
 
-#"Solar Panel MK III"
-tech_solar_panel_network_3 = {
-	cost = @tier2cost4
+#sm_rse_solar_panel_network3: "Spaceport Fusion Power Plant"
+#sm_material_factory_3:0 "Moon Strip Mining"
+tech_rse_resource_generation_2 = {
+	cost = @tier2cost3
 	area = physics
-	tier = 3
+	tier = 2
 	#is_rare = yes
 	category = { industry }
-	prerequisites = { "tech_solar_panel_network_2" "tech_spaceport_4" "tech_power_plant_2" }
+	prerequisites = { "tech_rse_resource_generation_1" "tech_spaceport_4" "tech_mining_network_2" "tech_fusion_power"}
 	weight = @tier3weight3
 
 	
@@ -116,20 +121,22 @@ tech_solar_panel_network_3 = {
 	}
 	modifier = {
 		max_energy = 1000
+		max_minerals = 1000
 	}	
 	ai_weight = {
 		factor = 10
 	}
 }
 
-#"Solar Panel MK IV"
-tech_solar_panel_network_4 = {
-	cost = @tier3cost2
+#sm_rse_solar_panel_network4: "Spaceport Cold Fusion Power Plant"
+#sm_material_factory_4:0 "Energy to Matter Plant"
+tech_rse_resource_generation_3 = {
+	cost = @tier3cost1
 	area = physics
 	tier = 3
 	is_rare = yes
 	category = { industry }
-	prerequisites = { "tech_solar_panel_network_3" "tech_spaceport_5" }
+	prerequisites = { "tech_rse_resource_generation_2" "tech_spaceport_5" "tech_mining_network_3" "tech_cold_fusion_power"}
 	weight = @tier3weight3
 
 	
@@ -148,54 +155,27 @@ tech_solar_panel_network_4 = {
 	}
 	modifier = {
 		max_energy = 1000
+		max_minerals = 1000
 	}	
 	ai_weight = {
 		factor = 10
 	}
 
-}
-
-
-#"Planetary Energy Grid"
-tech_solar_panel_network_5 = {
-	cost = @tier3cost4
-	area = physics
-	tier = 3
-	is_rare = yes
-	category = { industry }
-	prerequisites = { "tech_solar_panel_network_3" "tech_spaceport_6" "tech_power_hub_2" }
-	weight = @tier4weight1
-
-	
-	weight_modifier = {
-		modifier = {
-			is_ai = yes
-			factor = 0
-		}
-		modifier = {
-			factor = 2
-			research_leader = {
-				area = physics
-				has_trait = "leader_trait_expertise_industry"
-			}
-		}
-	}
-	modifier = {
-		max_energy = 1000
-	}	
 }
 
 #sm_solar_panel_network6:0 "Spaceport Anti-Matter Power Plant"
-tech_solar_panel_network_6 = {
+#sm_material_factory_5:0 "NEW ENERGY TO MATTER PLANT"
+tech_rse_resource_generation_4 = {
 	area = physics
-	cost = @tier3cost4
+	cost = @tier3cost2
 	tier = 3
 	category = { particles }
-	prerequisites = { "tech_antimatter_power" "tech_power_plant_3" "tech_solar_panel_network_4" }
+	prerequisites = { "tech_antimatter_power" "tech_rse_resource_generation_3" "tech_spaceport_6" }
 	weight = @tier3weight4
 	
 	modifier = {
-		max_energy = 1000
+		max_energy = 2000
+		max_minerals = 2000
 	}
 	
 	weight_modifier = {
@@ -222,17 +202,17 @@ tech_solar_panel_network_6 = {
 }
 
 #sm_solar_panel_network7:0 "Spaceport Zero-Point Power Plant"
-tech_solar_panel_network_7 = {
+tech_rse_resource_generation_5 = {
 	area = physics
-	cost = @tier3cost4
-	tier = 4
+	cost = @tier3cost3
+	tier = 3
 	is_rare = yes
 	category = { particles }
-	prerequisites = { "tech_solar_panel_network_6" }
+	prerequisites = { "tech_rse_resource_generation_4" "tech_zero_point_power" }
 	weight = @tier3weight4
 	
 	modifier = {
-		max_energy = 1000
+		max_energy = 2500
 	}
 	
 	weight_modifier = {
@@ -256,6 +236,68 @@ tech_solar_panel_network_7 = {
 			}
 		}
 	}
+}
+
+#"Planetary Energy Grid"
+tech_rse_resource_generation_6 = {
+	cost = @tier4cost1
+	area = physics
+	tier = 3
+	is_rare = yes
+	category = { industry }
+	prerequisites = { "tech_spaceport_6" "tech_power_hub_2" "tech_power_plant_4" }
+	weight = @tier4weight1
+
+	
+	weight_modifier = {
+		modifier = {
+			is_ai = yes
+			factor = 0
+		}
+		modifier = {
+			factor = 2
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_industry"
+			}
+		}
+	}
+	modifier = {
+		max_energy = 2500
+	}	
+}
+
+#Mining Guilds
+tech_rse_resource_generation_7 = {
+	cost = @tier4cost1
+	area = physics
+	tier = 4
+	is_rare = yes
+	category = { industry }
+	prerequisites = { "tech_spaceport_6" "tech_material_factory_4" "tech_mineral_processing_2" }
+	weight = @tier4weight1
+	
+	
+	weight_modifier = {
+		modifier = {
+			is_ai = yes
+			factor = 10
+		}
+		modifier = {
+			factor = 2
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_industry"
+			}
+		}
+	}
+	modifier = {
+		max_minerals = 2500
+	}
+	ai_weight = {
+		factor = 10
+	}
+
 }
 
 #HiveSolar Panel

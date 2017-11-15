@@ -9,11 +9,11 @@
 #################### Observation and Listening Posts ####################
 
 #sm_observatory_2:0 "Astrometrics Lab"
-observatory_2 = {
+rse_observatory_2 = {
 	icon = "GFX_spaceport_module_observatory_2"
 	section = "SCIENCE_SPACEPORT_SECTION"
 	construction_days = 360
-	prerequisites = { "tech_orbital_sensor_array_2" }
+	prerequisites = { "tech_rse_orbital_sensor_array_2" }
 	spaceport_level = 5
 	
 	cost = {
@@ -38,11 +38,11 @@ observatory_2 = {
 }
 
 #sm_observatory_3:0 "Relativity Array"
-observatory_3 = {
+rse_observatory_3 = {
 	icon = "GFX_spaceport_module_observatory_3"
 	section = "SCIENCE_SPACEPORT_SECTION"
 	construction_days = 720
-	prerequisites = { "tech_orbital_sensor_array_3" }
+	prerequisites = { "tech_rse_orbital_sensor_array_3" }
 	spaceport_level = 10
 	
 	cost = {
@@ -68,11 +68,11 @@ observatory_3 = {
 }
 
 # sm_listening_post_1:0 "Listening Post MK I"
-listening_post_1 = {
+rse_listening_post_1 = {
 	icon = "GFX_spaceport_module_listening_post_1"
 	section = "RSE_SCIENCE_SPACEPORT_SECTION"
 	construction_days = 180
-	prerequisites = { "tech_listening_post_1" }
+	prerequisites = { "tech_rse_orbital_sensor_array_2" }
 	spaceport_level = 3
 	
 	cost = {
@@ -116,11 +116,11 @@ listening_post_1 = {
 }
 
 # sm_listening_post_2:0 "Listening Post MK II"	
-listening_post_2 = {
+rse_listening_post_2 = {
 	icon = "GFX_spaceport_module_listening_post_2"
 	section = "RSE_SCIENCE_SPACEPORT_SECTION"
 	construction_days = 360
-	prerequisites = { "tech_listening_post_2" }
+	prerequisites = { "tech_rse_orbital_sensor_array_3" }
 	spaceport_level = 5
 	
 	cost = {

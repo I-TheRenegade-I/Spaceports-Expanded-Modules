@@ -12,7 +12,7 @@ hydroponic_farms_2 = {
 	icon = "GFX_spaceport_module_hydroponic_farms_2"
 	section = "RSE_SCIENCE_SPACEPORT_SECTION"
 	construction_days = 180
-	prerequisites = { "tech_orbital_hydroponics_2" }
+	prerequisites = { "tech_gene_crops" }
 	spaceport_level = 3
 	
 	cost = {
@@ -40,7 +40,7 @@ hydroponic_farms_3 = {
 	icon = "GFX_spaceport_module_hydroponic_farms_3"
 	section = "RSE_SCIENCE_SPACEPORT_SECTION"
 	construction_days = 360
-	prerequisites = { "tech_orbital_hydroponics_3" }
+	prerequisites = { "tech_nano_vitality_crops" }
 	spaceport_level = 5
 	
 	cost = {
@@ -68,7 +68,7 @@ hydroponic_farms_4 = {
 	icon = "GFX_spaceport_module_hydroponic_farms_4"
 	section = "RSE_SCIENCE_SPACEPORT_SECTION"
 	construction_days = 720
-	prerequisites = { "tech_orbital_hydroponics_4" }
+	prerequisites = { "tech_nutrient_replication" }
 	spaceport_level = 6
 	
 	cost = {

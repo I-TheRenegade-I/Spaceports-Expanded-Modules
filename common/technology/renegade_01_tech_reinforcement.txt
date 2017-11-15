@@ -46,9 +46,9 @@
 
 #TOTAL TECHS IN THE FILE - 3
 #
-#
-#
-#
+#tech_rse_starbase_defense_1
+#tech_rse_starbase_defense_2
+#tech_rse_starbase_defense_3
 #
 #
 #
@@ -56,15 +56,16 @@
 #
 #
 
-######################## SHIELD MODULES ########################
+######################## ARMOR MODULES ########################
 
-#sm_rse_spaceport_shield_1:0 "Shield Array MK I"
-tech_rse_shields_1 = {
-	area = physics
-	cost = @tier1cost3
+#sm_rse_module_armor_1:0 "Reinforced Blast Doors"
+#sm_rse_module_hull_1:0 "Bulkhead Reinforcment" 
+tech_rse_starbase_reinforcement_1 = {
+	area = engineering
+	cost = @tier1cost2
 	tier = 1
-	category = { field_manipulation }
-	prerequisites = { "tech_shields_1" }
+	category = { materials }
+	prerequisites = { "tech_ship_armor_1" }
 	weight = @tier1weight2
 	
 	weight_modifier = {
@@ -72,30 +73,32 @@ tech_rse_shields_1 = {
 		modifier = {
 			factor = 1.25
 			research_leader = {
-				area = physics
-				has_trait = "leader_trait_expertise_field_manipulation"
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
 			}
 		}
 	}
+	
 	ai_weight = {
-		factor = 2 #good component
 		modifier = {
 			factor = 1.25
 			research_leader = {
-				area = physics
-				has_trait = "leader_trait_expertise_field_manipulation"
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
 			}
 		}
 	}
 }
 
-#sm_rse_spaceport_shield_2:0 "Shield MK I to MK II Upgrade Kit"
-tech_rse_shields_2 = {
-	area = physics
-	cost = @tier2cost3
-	tier = 2
-	category = { field_manipulation }
-	prerequisites = { "tech_rse_shields_1" "tech_shields_3" }
+
+#sm_rse_module_armor_2:0 "Titanium Alloy Upgrade Kit"
+#sm_rse_module_hull_2:0 "Neutronium Skin" 
+tech_rse_starbase_reinforcement_2 = {
+	area = engineering
+	cost = @tier2cost2
+	tier = 3
+	category = { materials }
+	prerequisites = { "tech_rse_starbase_defense_1" "tech_spaceport_5" "tech_ship_armor_3" }
 	weight = @tier2weight4
 	
 	weight_modifier = {
@@ -103,54 +106,52 @@ tech_rse_shields_2 = {
 		modifier = {
 			factor = 1.25
 			research_leader = {
-				area = physics
-				has_trait = "leader_trait_expertise_field_manipulation"
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
 			}
 		}
-	}	
+	}
+	
 	ai_weight = {
-		factor = 2 #good component
 		modifier = {
 			factor = 1.25
 			research_leader = {
-				area = physics
-				has_trait = "leader_trait_expertise_field_manipulation"
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
 			}
 		}
 	}
 }
 
-#sm_rse_spaceport_shield_3:0 "Shield MK II to MK III Upgrade Kit"
-tech_rse_shields_3 = {
-	area = physics
-	cost = @tier3cost3
+
+#sm_rse_module_armor_3:0 "Ablative Armor Upgrade Kit"
+#sm_rse_module_hull_3:0 "Living Metal Construction" 
+tech_rse_starbase_reinforcement_3 = {
+	area = engineering
+	cost = @tier3cost2
 	tier = 3
 	is_rare = yes
-	category = { field_manipulation }
-	prerequisites = { "tech_rse_shields_2" "tech_shields_5" }
+	category = { materials }
+	prerequisites = { "tech_rse_starbase_defense_2" "tech_ship_armor_5" "tech_spaceport_6" }
 	weight = @tier3weight4
-
+	
 	weight_modifier = {
 		factor = 1.25
 		modifier = {
 			factor = 1.25
 			research_leader = {
-				area = physics
-				has_trait = "leader_trait_expertise_field_manipulation"
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
 			}
 		}
-		modifier = {
-			is_ai = yes
-			factor = 0
-		}
-	}	
+	}
+	
 	ai_weight = {
-		factor = 2 #good component
 		modifier = {
 			factor = 1.25
 			research_leader = {
-				area = physics
-				has_trait = "leader_trait_expertise_field_manipulation"
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
 			}
 		}
 	}

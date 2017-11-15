@@ -59,13 +59,13 @@
 ######################## WEAPON MODULES ########################
 
 ## "Semi-Autonomous Defenses"
-tech_synchronized_defences_2 = {
+tech_rse_starbase_sync_defense_1 = {
 	area = physics
 	tier = 2
 	cost = @tier2cost2
 	category = { computing }
 	ai_update_type = military		
-	prerequisites = { "tech_synchronized_defences" }
+	prerequisites = { "tech_synchronized_defences" "tech_shields_1" }
 	#is_rare = yes
 	weight = @tier3weight3
 	
@@ -114,13 +114,13 @@ tech_synchronized_defences_2 = {
 }
 
 ## "Autonomous Defense Network"
-tech_synchronized_defences_3 = {
+tech_rse_starbase_sync_defense_2 = {
 	area = physics
 	tier = 2
 	cost = @tier2cost4
 	category = { computing }
 	ai_update_type = military		
-	prerequisites = { "tech_synchronized_defences_2" }
+	prerequisites = { "tech_rse_starbase_sync_defense_1" "tech_shields_2" }
 	is_rare = yes
 	weight = @tier3weight3
 	
@@ -169,13 +169,13 @@ tech_synchronized_defences_3 = {
 }
 
 ## "AI Controlled Defensive Matrix"
-tech_synchronized_defences_4 = {
+tech_rse_starbase_sync_defense_3 = {
 	area = physics
 	tier = 4
 	cost = @tier3cost3
 	category = { computing }
 	ai_update_type = military		
-	prerequisites = { "tech_synchronized_defences_3" "tech_combat_computers_2" }
+	prerequisites = { "tech_rse_starbase_sync_defense_2" "tech_combat_computers_2" "tech_shields_4" }
 	is_rare = yes
 	weight = @tier4weight1
 	
@@ -227,6 +227,64 @@ tech_synchronized_defences_4 = {
 	}		
 }
 
+##rse_module_spaceport_defense_network
+tech_rse_starbase_sync_defense_4 = {
+	area = physics
+	tier = 4
+	cost = @tier4cost1
+	category = { computing }
+	ai_update_type = military		
+	prerequisites = { "tech_rse_starbase_sync_defense_3" tech_rse_starbase_reinforcement_3" "tech_sensors_4" "tech_shields_5" }
+	is_rare = yes
+	weight = @tier4weight1
+	
+	weight_modifier = {
+		factor = 0.5
+		modifier = {
+			factor = 0.50
+			NOR = {
+				research_leader = {
+					area = physics
+					has_trait = "leader_trait_expertise_voidcraft"
+				}
+				research_leader = {
+					area = physics
+					has_trait = "leader_trait_curator"
+				}
+			}
+		}
+		modifier = {
+			factor = 0.25
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 0.15
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 1.10
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.20
+			has_ethic = ethic_fanatic_militarist
+		}
+		modifier = {
+			is_ai = yes
+			factor = 0
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_computing"
+			}
+		}
+	}		
+}
 
 #sm_rse_module_weapon_l2:0 "Laser Array MK II"
 tech_rse_spaceport_lasers_1 = {

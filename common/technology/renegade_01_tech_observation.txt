@@ -58,67 +58,10 @@
 
 ######################## OBSERVATION AND LISTENING POSTS ########################
 
-#Listening Post MK I
-tech_listening_post_1 = {
-	cost = @tier2cost3
-	area = physics
-	tier = 1
-	#is_rare = yes
-	category = { industry }
-	prerequisites = { "tech_sensors_2" "tech_orbital_sensor_array" }
-	weight = @tier2weight3
-	
 
-	weight_modifier = {
-		modifier = {
-			is_ai = yes
-			factor = 10
-		}
-		modifier = {
-			factor = 2
-			research_leader = {
-				area = engineering
-				has_trait = "leader_trait_expertise_industry"
-			}
-		}
-	}
-	ai_weight = {
-		factor = 10
-	}
-}
-
-#Listening Post MK II
-tech_listening_post_2 = {
-	cost = @tier3cost3
-	area = physics
-	tier = 3
-	#is_rare = yes
-	category = { industry }
-	prerequisites = { "tech_listening_post_1" "tech_sensors_4" }
-	weight = @tier3weight3
-	
-
-	weight_modifier = {
-		modifier = {
-			is_ai = yes
-			factor = 10
-		}
-		modifier = {
-			factor = 2
-			research_leader = {
-				area = engineering
-				has_trait = "leader_trait_expertise_industry"
-			}
-		}
-	}
-	
-	ai_weight = {
-		factor = 10
-	}
-}
-
-#sm_observatory_2:0 "Astrometrics Lab"
-tech_orbital_sensor_array_2 = {
+#sm_rse_observatory_2:0 "Astrometrics Lab"
+#sm_rse_listening_post_1:0 "Listening Post MK I"
+tech_rse_orbital_sensor_array_2 = {
 	area = physics
 	cost = @tier2cost2
 	tier = 2
@@ -188,14 +131,15 @@ tech_orbital_sensor_array_2 = {
 	}
 }
 
-#sm_observatory_3:0 "Relativity Array"
-tech_orbital_sensor_array_3 = {
+#sm_rse_observatory_3:0 "Relativity Array"
+#sm_rse_listening_post_1:0 "Listening Post MK I"
+tech_rse_orbital_sensor_array_3 = {
 	area = physics
 	cost = @tier3cost2
 	tier = 3
 	category = { voidcraft }
 	is_rare = yes	
-	prerequisites = { "tech_orbital_sensor_array_2" }
+	prerequisites = { "tech_orbital_sensor_array_2" "tech_sensors_3" }
 	weight = @tier3weight2
 	
 	# unlocks observatory orbital module
