@@ -18,7 +18,7 @@ l_english:
 #TheRenegade 10/04/17
 
 #Spaceport Reinforcement Module Tech
-tech_rse_starbase_reinforcement_1:
+tech_rse_starbase_reinforcement_1: New tech for Starbase armor and hull HP modules
 tech_rse_starbase_reinforcement_1_desc:
 
 tech_rse_starbase_reinforcement_2:
@@ -29,7 +29,7 @@ tech_rse_starbase_reinforcement_3_desc:
 
 #Syncronized Defenses Module Tech
 
-tech_rse_starbase_sync_defense_1:
+tech_rse_starbase_sync_defense_1: new tech for shield and automated defense modules
 tech_rse_starbase_sync_defense_1_desc:
 
 tech_rse_starbase_sync_defense_2:
@@ -79,7 +79,7 @@ tech_rse_spaceport_energy_torpedoes_desc: "Energy Torpedeos on a spaceport... wh
 #Resource Generation Module Tech - New updated tech to cover multiple modules -Energy/Mineral Generation-
 #Will require new names and descriptions - delete this line once completed
 
-tech_rse_resource_generation_1: 
+tech_rse_resource_generation_1: New tech for new reactors (followed ship naming) and mineral generation modules
 tech_rse_resource_generation_1_desc: "New matter to energy and station power plant - 1"
 
 tech_rse_resource_generation_2: 
@@ -103,16 +103,16 @@ tech_rse_resource_generation_7_desc: "A meeting place for miners to organize the
 
 #Ship Assembly Module Tech
 
-tech_rse_ship_assembly_1:
+tech_rse_ship_assembly_1: New tech, does 1st level ship assembly and orbital recruitment module (faster/stronger planet army recruitment "better army trainging")
 tech_rse_ship_assembly_1_desc:
 
-tech_rse_ship_assembly_2:
+tech_rse_ship_assembly_2: 2nd level ship assembly, crew training module (does bonuses to ship dmg/shields "better shiup crew trainig")
 tech_rse_ship_assembly_2_desc:
 
-tech_rse_ship_assembly_3:
+tech_rse_ship_assembly_3: 3rd level ship assembly, station security forces (starbase fire rate, weapon damage) starbase fighter squadron module
 tech_rse_ship_assembly_3_desc:
 
-tech_rse_ship_assembly_4:
+tech_rse_ship_assembly_4: 4th level ship assembly, officer training (ship speed, sensor, weapon bonuses) bomber squadron moudle
 tech_rse_ship_assembly_4_desc:
 
 
